@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Next JS project #4
+# Giant Musuem
+- A Huge musuem lifted by artifacts from the far future and the ancient past. I created this website to finally conquer NextJS and its simple design. Exploratino and Fun. My goal is to create a simple, smooth running app for the first iteration and keep growing (after planning).
+---
 
-## Getting Started
+## My Role
+1. UX Researcher
+2. UI Designer
+3. Front/Back End Web Developer
+4. Web Architect
 
-First, run the development server:
+## Project Description
+- Create a Web Application from scratch showcasing the world renowed Giant Musuem Located in Western Birmingham. Supporters of the site would like to book a ticket for an Upcoming events, browse the musuem's collection and more. 
+The owners of the musuem would like a modern, slick design, with the neccessary functionalities of the average online musuem. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Requirements
+- [ ] User Authentication
+- [ ] HomePage
+- [ ] Contact Information + Social Media
+- [ ] Responsive Design
+- [ ] Image Gallery
+- [ ] About Page
+- [ ] Simple Contact Form
+- [ ] Basic SEO
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Next
+- [ ] Exhibition Listings
+- [ ] Search Functionality
+- [ ] CMS
+- [ ] Blog Section
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Hopeful 
+- [ ] Interactive Exhibits
+- [ ] Donation Integration
+- [ ] Multilingual Support
+--- 
