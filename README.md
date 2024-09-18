@@ -13,6 +13,14 @@ Next JS project #4
 - Create a Web Application from scratch showcasing the world renowed Giant Museum Located in Western Birmingham. Supporters of the site would like to book a ticket for an Upcoming events, browse the museum's collection and more. 
 The owners of the museum would like a modern, slick design, with the neccessary functionalities of the average online museum. 
 
+## Steps
+- [ / ] Content / Copy
+- [  ] Images, Brand
+- [  ] UX
+- [  ] Design System
+- [  ] UI 
+- [  ] Code  
+
 ## Requirements
 - [ ] User Authentication
 - [ ] HomePage
@@ -32,17 +40,10 @@ The owners of the museum would like a modern, slick design, with the neccessary 
 #### Hopeful 
 - [ ] Interactive Exhibits
 - [ ] Donation Integration
-- [ ] Multilingual Support
-
-## Steps
-- [  ] Content / Copy
-- [  ] Images, Brand
-- [  ] UX
-- [  ] Design System
-- [  ] UI 
-- [ ] Code   
+- [ ] Multilingual Support 
 
 
 # 9 17 2024: Birth
+9 18 2024: Copy Three Pages 75% Complete
 
 
