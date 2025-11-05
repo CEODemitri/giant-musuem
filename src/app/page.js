@@ -10,10 +10,17 @@ export default function Home() {
           alt="Giant Museum Background"
           width={1920}
           height={1080}
-          className="absolute -z-10 h-full w-full object-cover"
+          className="-z-10 h-full w-full object-cover"
         />
       </div>
-      <h1 className="text-5xl text-center">Giant Musuem</h1>
+      <div className="absolute top-0 left-0 h-screen w-screen bg-[var(--background)] opacity-70 -z-5 flex flex-col">
+        <h2>ok</h2>
+
+        {/* dont like this mt-60 below, find resolution/alt asap */}
+        <h1 className="text-[250px] font-bold text-center mt-[60vh] text-[var(--foreground)]">
+          JOURNEY
+        </h1>
+      </div>
     </main>
   );
 }
