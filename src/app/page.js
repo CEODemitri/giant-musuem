@@ -16,11 +16,11 @@ export default function Home() {
       <div className="absolute top-0 left-0 h-screen w-screen bg-[var(--background)] opacity-70 -z-5">
         <section className="flex flex-col items-end justify-end h-screen w-screen gap-8 px-4">
           <article className="">
-            <h2>
+            <h2 className="text-2xl w-5/12">
               Explore the wonders of the Giant Museum, where history comes
-              alive.
+              alive. Wonders of our World.
             </h2>
-            <p>Wonders of our World</p>
+            <p></p>
           </article>
 
           {/* dont like this mt-60 below, find resolution/alt asap */}
