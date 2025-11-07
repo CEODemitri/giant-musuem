@@ -1,5 +1,6 @@
 import Image from "next/image";
 import bg from "./img/mainbg.jpeg";
+import FeaturedGallery from "./components/featured-gallery";
 
 export default function Home() {
   return (
@@ -15,6 +16,10 @@ export default function Home() {
       </div>
       <div className="absolute top-0 left-0 h-screen w-screen bg-[var(--background)] opacity-70 -z-5">
         <section className="flex flex-col items-end justify-end h-screen w-screen gap-8 px-4">
+          <div>
+            <FeaturedGallery />
+          </div>
+
           <article className="">
             <h2 className="text-2xl w-5/12">
               Explore the wonders of the Giant Museum, where history comes
