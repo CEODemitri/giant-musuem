@@ -5,7 +5,7 @@ import gallery3 from "../img/gallery3.jpg";
 
 export default function FeaturedGallery() {
   return (
-    <section className="mb-8 bg-orange-700/40 p-6 rounded-lg backdrop-blur-3xl hover:bg-amber-500/60 transition-all duration-500 border-8 border-orange-100/30">
+    <section className="mb-8 bg-orange-200/40 p-6 rounded-lg backdrop-blur-3xl hover:bg-amber-200/60 transition-all duration-500 border-8 border-orange-100/30">
       <article>
         <h3 className="text-xl mb-4 text-[var(--foreground)]">
           Featured Gallery
