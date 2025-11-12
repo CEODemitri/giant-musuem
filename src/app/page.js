@@ -49,32 +49,38 @@ export default function Home() {
       </main>
 
       {/* featured showcase */}
-      <div className="h-screen bg-gradient-to-b from-yellow-700/30 to-amber-500/30">
-        {/* featured exhbit details and showcase */}
+      <div className="h-screen py-20 px-6 md:px-12 lg:px-24">
+        {/* featured exhibit details and showcase */}
         <section className="flex">
           <article>
-            <h2 className="text-4xl font-bold text-orange-900">
+            <h2 className="text-4xl font-bold text-orange-900 mb-4">
               Roaring 1800s Showcase
             </h2>
-            <p>
+            <p className="max-w-4xl text-sm">
               Dive into the vibrant world of the 1800s with our exclusive
               gallery hidden above. Experience the artistry and culture that
               defined an era.
             </p>
+          </article>
+          <div className="my-6 italic uppercase flex">
             <div>
               <p>May 27 2025 - 2026</p>
               <p>London, Paris</p>
+              <div>
+                <Palette className="inline-block w-5 h-5 text-orange-600 mr-2" />
+                <Music className="inline-block w-5 h-5 text-orange-600" />
+              </div>
             </div>
-          </article>
 
-          <h3 className="place-self-center">
-            Includes: Guided Tours, Interactive Displays, Period Performances,
-            Art Workshops and Photography Sessions
-          </h3>
+            <h3 className="text-xs">
+              Includes: Guided Tours, Interactive Displays, Period Performances,
+              Art Workshops and Photography Sessions
+            </h3>
+          </div>
         </section>
 
-        {/* attractions */}
-        <section id="events" className="py-20 px-6 md:px-12 lg:px-24">
+        {/* sub: attractions */}
+        <section id="events">
           <h3 className="text-2xl font-bold text-center text-orange-900 mb-12">
             Popular Attractions
           </h3>
@@ -110,43 +116,42 @@ export default function Home() {
           </div>
         </section>
         {/* featured people and ideas */}
-        <section className="flex justify-between">
-          <article className="bg-blue-300 w-1/2">
-            <h4>Artists</h4>
-
-            <div className="flex flex-wrap">
-              {[...Array(4)].map((_, i) => (
-                <div
-                  key={i}
-                  className="bg-blue-200 p-6 rounded-md shadow-md hover:shadow-lg transition-shadow duration-300 w-1/2"
-                >
-                  <div className="flex items-center space-x-4 mb-2">
-                    <span className="text-purple-900 font-semibold">
-                      Artist {1 + i}
-                    </span>
-                    <Image />
-                  </div>
-                  <article>
-                    <h3 className="text-xl font-bold text-amber-800 mb-2">
-                      Exhibition: The Color of Dreams
-                    </h3>
-                    <p className="text-gray-700 mb-4">
-                      Join us for an immersive journey through latest
-                      collection, exploring the vivid landscapes of the
-                      subconscious mind.
-                    </p>
-                  </article>
-                </div>
-              ))}
-            </div>
-          </article>
-
-          <article className="bg-blue-300 w-1/2">
-            <h4>Ideas</h4>
-          </article>
-        </section>
 
         {/* book visit */}
+      </div>
+      <div className="flex justify-between">
+        <article className="bg-blue-300 w-1/2">
+          <h4>Artists</h4>
+
+          <div className="flex flex-wrap">
+            {[...Array(4)].map((_, i) => (
+              <div
+                key={i}
+                className="bg-blue-200 p-6 rounded-md shadow-md hover:shadow-lg transition-shadow duration-300 w-1/2"
+              >
+                <div className="flex items-center space-x-4 mb-2">
+                  <span className="text-purple-900 font-semibold">
+                    Artist {1 + i}
+                  </span>
+                  {/* <Image src={} width={} height={}/> */}
+                </div>
+                <article>
+                  <h3 className="text-xl font-bold text-amber-800 mb-2">
+                    Exhibition: The Color of Dreams
+                  </h3>
+                  <p className="text-gray-700 mb-4">
+                    Join us for an immersive journey through latest collection,
+                    exploring the vivid landscapes of the subconscious mind.
+                  </p>
+                </article>
+              </div>
+            ))}
+          </div>
+        </article>
+
+        <article className="bg-blue-300 w-1/2">
+          <h4>Ideas</h4>
+        </article>
       </div>
     </>
   );
