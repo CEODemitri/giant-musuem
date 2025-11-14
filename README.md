@@ -1,30 +1,134 @@
-Next JS project #4
+Next JS project #1 11/2025
 
-# Giant Museum
-
-- A Huge museum lifted by artifacts from the far future and the ancient past. I created this website to accelerate my conquering of NextJS and its simple design. Exploration and Fun. My goal is to create a simple, smooth running app for the first iteration and keep growing (after planning).
-
----
-
-## My Role
-
-1. UX Researcher
-2. UI Designer
-3. Front/Back End Web Developer
-4. Web Architect
-
-### Project Description
-
-- Create a Web Application from scratch showcasing the world renowed Giant Museum Located in Western Birmingham. Supporters of the site would like to book a ticket for an Upcoming events, browse the museum's collection and more.
-  The owners of the museum would like a modern, slick design, with the neccessary functionalities of the average online museum.
-
-# 9 17 2024: Birth
-
----
-
-fell down, but we get back up again
-
-# 11 4 2025 revamp
-
+## 11 4 2025 revamp
+Redesign of this app. Great potential in need of fulfilling.
 - [ ] HomePage
       image by [The Cleveland Museum of Art]
+
+---
+
+# 📚 Giant Museum Portfolio Website
+
+*A Huge museum overflowing with artifacts from the ancient future and the distant past. Curated digital experience showcasing exhibitions, collections, and cultural programs.*
+
+## 🖼️ Overview
+
+The **Giant Museum Portfolio Website** is a modern, accessible, and responsive digital experience designed to highlight a museum’s identity, exhibitions, permanent collections, and educational initiatives.
+The site aims to bridge digital and physical spaces by offering visitors an engaging, intuitive, and visually rich interface.
+
+This project demonstrates expertise in web design, UI/UX, content architecture, and front-end development.
+
+---
+
+## 🎯 Objectives
+
+* Present museum information in a clean, organized, and visually appealing way
+* Ensure accessibility following WCAG principles
+* Create a flexible content structure suitable for art, history, culture, and science museums
+* Provide an immersive storytelling experience through imagery, typography, and layout
+* Allow for easy addition of exhibitions, artworks, and events
+
+---
+
+## 🧩 Features
+
+* **Homepage hero gallery** showcasing featured exhibitions
+* **Exhibitions Section** with individual detail pages
+* **Artwork / Artifact Collection** with filters and media modals
+* **About Page** describing museum mission and history
+* **Visitor Information** (hours, tickets, directions)
+* **Events & Educational Programs**
+* **Responsive design** for mobile, tablet, and desktop
+* **Accessibility improvements** such as alt text, contrast, and keyboard navigation
+* **Optional CMS integration** (Sanity, Contentful, WordPress, etc.)
+
+---
+
+## 🛠️ Tech Stack
+
+*(Adjust according to your implementation)*
+
+* **Framework:** React / Next.js / Vue / HTML-CSS-JS
+* **Styling:** Tailwind CSS / SCSS / CSS Modules
+* **Animations:** Framer Motion / GSAP
+* **CMS:** Sanity, Contentful, Strapi *(optional)*
+* **Deployment:** Vercel / Netlify / GitHub Pages
+* **Version Control:** Git + GitHub
+
+---
+
+## 📁 Project Structure
+
+```plaintext
+/public
+  ├─ images/
+  └─ icons/
+
+/src
+  ├─ components/
+  ├─ pages/
+  ├─ styles/
+  ├─ data/
+  └─ utils/
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone my repository
+
+```bash
+git clone https://github.com/ceo-demitri/giant-museum.git
+cd giant-museum
+```
+
+### 2. Install dependencies
+
+```bash
+bun install
+```
+
+### 3. Run the development server
+
+```bash
+bun run dev
+```
+
+### 4. Build for production
+
+```bash
+bun run build
+```
+
+---
+
+## 💡 Design Principles
+
+* **Minimalist layout** to emphasize artwork and exhibitions
+* **High-quality media** to enhance the gallery experience
+* **Elegant, museum-inspired typography**
+* **Consistent grid and spacing system** for visual balance
+
+---
+
+## 📸 Take a Peek
+
+*(Add screenshots here once available.)*
+
+---
+
+## 📐 Future Features
+
+* Multi-language support
+* Interactive floor plan
+* Virtual tour integration
+* API-connected collection database
+
+---
+
+## 👤 Creator
+
+**Demitri Echols**
+Portfolio: *demitri26.vercel.app*
+Email: *[iprogramidesign@gmail.com](mailto:iprogramidesign@gmail.com)*
