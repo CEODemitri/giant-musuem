@@ -1,169 +1,175 @@
-import Image from "next/image";
-import bg from "./img/mainbg.jpeg";
-import FeaturedGallery from "./components/featured-gallery";
 import { Palette, Music, Calendar } from "lucide-react";
+import HeroSection from "@/app/components/hero-section";
 
 export default function Home() {
   return (
     <>
-      <main className="flex flex-col min-h-screen">
-        <section className="relative h-screen w-full overflow-hidden">
-          {/* Background Image */}
-          <Image
-            src={bg}
-            alt="Giant Museum Background"
-            fill
-            priority
-            className="object-cover -z-10"
-          />
+        <HeroSection />
 
-          {/* Overlay */}
-          <div className="absolute inset-0 bg-[var(--background)] opacity-60 -z-5" />
 
-          {/* Centered Content */}
-          <div className="relative z-10 flex flex-col items-center h-full gap-8 text-center">
-            <div className="max-w-6xl mt-[13vh]">
-              <FeaturedGallery />
-            </div>
-
-            <article className="max-w-2xl">
-              <h2 className="text-2xl md:text-3xl leading-snug">
-                Explore the wonders of the Giant Museum, where history comes
-                alive. Wonders of our World.
-              </h2>
-            </article>
-          </div>
-
-          {/* Bottom-Pinned “JOURNEY” Text */}
-          <div className="absolute bottom-[10vh] left-1/2 -translate-x-1/2 z-10">
-            <h1 className="text-[18vw] font-bold text-[var(--foreground)] leading-none select-none opacity-60">
-              JOURNEY
-            </h1>
-          </div>
-
-          {/* Scroll Indicator */}
-          <div className="absolute bottom-[2vh] left-1/2 -translate-x-1/2 text-sm opacity-80 z-10">
-            <p>Scroll to Explore</p>
-          </div>
-        </section>
-      </main>
-
-      {/* featured showcase */}
-      <div className="h-screen py-20 px-6 md:px-12 lg:px-24">
-        {/* featured exhibit details and showcase */}
-        <section className="flex">
-          <article>
-            <h2 className="text-4xl font-bold text-orange-900 mb-4">
-              Roaring 1800s Showcase
-            </h2>
-            <p className="max-w-4xl text-sm">
-              Dive into the vibrant world of the 1800s with our exclusive
-              gallery hidden above. Experience the artistry and culture that
-              defined an era.
-            </p>
-          </article>
-          <div className="my-6 italic uppercase flex">
-            <div>
-              <p>May 27 2025 - 2026</p>
-              <p>London, Paris</p>
-              <div>
-                <Palette className="inline-block w-5 h-5 text-orange-600 mr-2" />
-                <Music className="inline-block w-5 h-5 text-orange-600" />
-              </div>
-            </div>
-
-            <h3 className="text-xs">
-              Includes: Guided Tours, Interactive Displays, Period Performances,
-              Art Workshops and Photography Sessions
-            </h3>
-          </div>
-        </section>
-
-        {/* sub: attractions */}
-        <section id="events">
-          <h3 className="text-2xl font-bold text-center text-orange-900 mb-12">
-            Popular Attractions
-          </h3>
-          <div className="max-w-2xl mx-auto space-y-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
-            {[...Array(2)].map((_, i) => (
-              <div
-                key={i}
-                className="bg-gradient-to-r from-purple-50 to-amber-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
-              >
-                <div className="flex items-center space-x-4 mb-4">
-                  <Calendar className="text-orange-600 w-6 h-6" />
-                  <span className="text-purple-900 font-semibold">
-                    June {5 + i}, 2026
-                  </span>
-                </div>
+        {/* featured showcase */}
+        <section className="h-screen py-20 px-6 md:px-12 lg:px-24 bg-neutral-50 text-neutral-900">
+            {/* featured exhibit details and showcase */}
+            <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-10">
                 <article>
-                  <h3 className="text-xl font-bold text-amber-800 mb-2">
-                    Exhibition: The Color of Dreams
-                  </h3>
-                  <p className="text-gray-700 mb-4">
-                    Join us for an immersive journey through latest collection,
-                    exploring the vivid landscapes of the subconscious mind.
-                  </p>
+                    <h2 className="text-4xl font-semibold text-neutral-800 tracking-tight mb-4">
+                        Roaring 1800s Showcase
+                    </h2>
+                    <p className="max-w-3xl text-sm text-neutral-600 leading-relaxed">
+                        Dive into the vibrant world of the 1800s with our exclusive gallery.
+                        Experience the artistry and culture that defined an era.
+                        The wise will see.
+                    </p>
                 </article>
-                <button
-                  variant="outline"
-                  className="bg-white text-purple-600 border-purple-600 hover:bg-purple-100"
-                >
-                  Learn More
-                </button>
-              </div>
-            ))}
-          </div>
+
+                <div className="my-6 italic uppercase flex flex-col gap-3 text-neutral-700">
+                    <div>
+                        <p className="text-xs tracking-wide">
+                            May 27 2025 – 2026
+                        </p>
+
+                        <p className="text-xs tracking-wide">
+                            London, Paris
+                        </p>
+
+                        <div className="flex items-center gap-2 mt-2">
+                            <Palette className="inline-block w-5 h-5 text-neutral-500" />
+                            <Music className="inline-block w-5 h-5 text-neutral-500" />
+                        </div>
+                    </div>
+
+                    <h3 className="text-[0.65rem] text-neutral-500 leading-relaxed max-w-xs">
+                        Includes: Guided Tours, Interactive Displays, Period Performances,
+                        Art Workshops, and Photography Sessions
+                    </h3>
+                </div>
+            </div>
+
+            {/* sub: attractions */}
+            <div id="events" className="mt-20">
+                <h3 className="text-2xl font-semibold text-center text-neutral-800 tracking-tight mb-12">
+                    Popular Attractions
+                </h3>
+
+                <div className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+                    {[...Array(2)].map((_, i) => (
+                        <div
+                            key={i}
+                            className="bg-white p-6 rounded-lg border border-neutral-200 shadow-sm hover:shadow-md transition-shadow duration-300"
+                        >
+                            <div className="flex items-center gap-3 mb-4">
+                                <Calendar className="text-neutral-700 w-6 h-6" />
+                                <span className="text-sm font-medium text-neutral-800">
+              June {5 + i}, 2026
+            </span>
+                            </div>
+
+                            <article>
+                                <h3 className="text-xl font-medium text-neutral-800 mb-2 tracking-tight">
+                                    Exhibition: The Color of Dreams
+                                </h3>
+                                <p className="text-neutral-600 text-sm leading-relaxed mb-4">
+                                    Join us for an immersive journey through the latest collection,
+                                    exploring the vivid landscapes of the subconscious mind.
+                                </p>
+                            </article>
+
+                            <button className="px-4 py-2 text-sm border border-neutral-800 text-neutral-800 rounded-md hover:bg-neutral-900 hover:text-white transition-all">
+                                Learn More
+                            </button>
+                        </div>
+                    ))}
+                </div>
+            </div>
         </section>
+
+
+
         {/* featured people and ideas */}
+        <section className="flex flex-col gap-20 px-6 md:px-12 lg:px-24 py-16">
+            <section className="px-6 md:px-12 lg:px-24 py-16">
+                <div className="flex flex-col md:flex-row justify-between items-center gap-6 mb-12">
 
-        {/* book visit */}
-      </div>
-      <div className="flex justify-between">
-        <article className="bg-blue-300 w-1/2">
-          <h4>Artists</h4>
+                    {/* Brutalist title for Ideas */}
+                    <h2 className="text-4xl font-extrabold uppercase border-b-4 border-black tracking-tight">
+                        Explore the wonders of the Giant Museum
+                    </h2>
 
-          <div className="flex flex-wrap">
-            {[...Array(4)].map((_, i) => (
-              <div
-                key={i}
-                className="bg-blue-200 p-6 rounded-md shadow-md hover:shadow-lg transition-shadow duration-300 w-1/2"
-              >
-                <div className="flex items-center space-x-4 mb-2">
-                  <span className="text-purple-900 font-semibold">
-                    Artist {1 + i}
-                  </span>
-                  {/* <Image src={} width={} height={}/> */}
+
                 </div>
-                <article>
-                  <h3 className="text-xl font-bold text-amber-800 mb-2">
-                    Exhibition: The Color of Dreams
-                  </h3>
-                  <p className="text-gray-700 mb-4">
-                    Join us for an immersive journey through latest collection,
-                    exploring the vivid landscapes of the subconscious mind.
-                  </p>
-                </article>
-              </div>
-            ))}
-          </div>
-        </article>
+            </section>
 
-        <article className="bg-blue-300 w-1/2">
-          <h4>Ideas</h4>
-        </article>
-      </div>
 
-      {/* about */}
+            {/* -------------------- IDEAS  -------------------- */}
+            <article className="bg-white p-6 rounded-xl shadow-lg">
+                <h2 className="text-3xl md:text-4xl font-semibold mb-8 text-neutral-900">
+                    Ideas
+                </h2>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    {[...Array(4)].map((_, i) => (
+                        <div
+                            key={i}
+                            className="hover:bg-black hover:text-white hover:border-2 border-b-red-400 transition-colors duration-200 pt-4"
+                        >
+                            <h3 className="text-xl font-extrabold uppercase mb-2">
+                                Concept {i + 1}
+                            </h3>
+                            <p className="text-xs leading-snug">
+                                Explore a groundbreaking concept shaping the museum experience.
+                                Bold ideas that challenge the imagination and invite reflection.
+                            </p>
+                        </div>
+                    ))}
+                </div>
+            </article>
+
+            {/* -------------------- PEOPLE -------------------- */}
+            <article className="bg-white p-6 rounded-xl shadow-lg">
+                <h2 className="text-3xl md:text-4xl font-semibold mb-8 text-neutral-900">
+                    People
+                </h2>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+                    {[...Array(4)].map((_, i) => (
+                        <div
+                            key={i}
+                            className="bg-neutral-50 rounded-xl shadow hover:shadow-xl transition-shadow duration-300 p-6"
+                        >
+                            <div className="flex items-center justify-between mb-4">
+            <span className="text-sm font-medium text-neutral-800">
+              Artist {i + 1}
+            </span>
+                                {/* Placeholder for image */}
+                            </div>
+
+                            <article className="space-y-2">
+                                <h3 className="text-lg md:text-xl font-semibold text-neutral-900">
+                                    Exhibition: The Color of Dreams
+                                </h3>
+                                <p className="text-neutral-600 text-sm leading-relaxed">
+                                    Join us for an immersive journey through the latest collection,
+                                    exploring the vivid landscapes of the subconscious mind.
+                                </p>
+                            </article>
+                        </div>
+                    ))}
+                </div>
+            </article>
+
+        </section>
+
+
+        {/* about */}
       <section id="about" class="w-full py-20 bg-white">
         <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
           <div class="w-full h-64 bg-gray-200 md:h-80 rounded-lg"></div>
 
           <div class="max-w-xl">
-            <h3 class="text-4xl font-bold mb-6">About the Museum</h3>
+            <h3 class="text-4xl font-bold mb-6">About our Museum</h3>
             <p class="text-gray-700 mb-4">
-              Our museum is dedicated to preserving, showcasing, and celebrating
-              the arts and cultures that shaped the world.
+              Dedicated to preserving the days of here and there. We present work in it&apos;s highest quality at each showcase. Our ultimate goal is to awaken and celebrating
+              the true arts and cultures that shaped our reality and this world.
             </p>
             <p class="text-gray-700">
               With rotating exhibits, educational programs, and community
@@ -176,25 +182,25 @@ export default function Home() {
       {/* visit info */}
       <section id="visit" class="w-full py-20 bg-gray-100">
         <div class="max-w-5xl mx-auto px-4 text-center">
-          <h3 class="text-4xl font-bold mb-8">Plan Your Visit</h3>
+          <h3 class="text-4xl font-bold mb-8">We'd love for You to Visit</h3>
 
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div class="bg-white p-6 rounded-lg shadow">
               <h4 class="text-xl font-semibold mb-2">Hours</h4>
-              <p class="text-gray-700 text-sm">Mon–Sat: 10am – 6pm</p>
-              <p class="text-gray-700 text-sm">Sun: 12pm – 5pm</p>
+              <p class="text-gray-700 text-sm">Moon–Saturn: 6am – 9pm</p>
+              <p class="text-gray-700 text-sm">Sun: 10am – 9pm</p>
             </div>
 
             <div class="bg-white p-6 rounded-lg shadow">
-              <h4 class="text-xl font-semibold mb-2">Tickets</h4>
-              <p class="text-gray-700 text-sm">Adults: $18</p>
-              <p class="text-gray-700 text-sm">Students: $12</p>
-              <p class="text-gray-700 text-sm">Kids: Free</p>
+              <h4 class="text-xl font-semibold mb-2">Entrance</h4>
+              <p class="text-gray-700 text-sm">Adults: $8</p>
+              <p class="text-gray-700 text-sm">Students: $3</p>
+              <p class="text-gray-700 text-sm">Children: Free</p>
             </div>
 
             <div class="bg-white p-6 rounded-lg shadow">
               <h4 class="text-xl font-semibold mb-2">Location</h4>
-              <p class="text-gray-700 text-sm">123 Museum St, Art City</p>
+              <p class="text-gray-700 text-sm">8 Jotunheim Way, Art Land</p>
               <p class="text-gray-700 text-sm">Free parking available</p>
             </div>
           </div>

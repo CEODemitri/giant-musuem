@@ -17,8 +17,8 @@ export default function FeaturedGallery() {
 
         <p className="text-[var(--foreground)] text-base leading-relaxed max-w-2xl">
           Discover our curated selection of timeless works from around the
-          world, showcasing masterful art that shaped culture throughout the
-          1800s.
+          world, showcasing masterful creations that shaped culture throughout the
+          1800s, once hidden away from the average citizen.
         </p>
       </article>
 

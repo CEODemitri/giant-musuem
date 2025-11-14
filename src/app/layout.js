@@ -15,7 +15,7 @@ const geistMono = localFont({
 export const metadata = {
   title: "Giant Museum",
   description:
-    "Full Stack web Application using Next.js 13 and Tailwind CSS by ceoDemitri",
+    "Full Stack web Application using Next.js 14 and Tailwind CSS by ceoDemitri",
 };
 
 function NavBar() {
@@ -26,9 +26,9 @@ function NavBar() {
           Giant Museum
         </p>
         <ul className="flex space-x-6 text-[var(--foreground)]">
-          <li className="hover:underline cursor-pointer">Home</li>
-          <li className="hover:underline cursor-pointer">Exhibits</li>
-          <li className="hover:underline cursor-pointer">About</li>
+          <li className="hover:underline cursor-pointer"><a href={"/"}>Home</a></li>
+          <li className="hover:underline cursor-pointer"><a href={"./exhibits"}>Exhibits</a></li>
+          <li className="hover:underline cursor-pointer">Blog</li>
           <li className="hover:underline cursor-pointer">Contact</li>
         </ul>
       </div>
@@ -54,7 +54,9 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <NavBar />
-        {children}
+        <div className="font-mono text-sm md:text-base leading-snug">
+            {children}
+        </div>
       </body>
     </html>
   );
