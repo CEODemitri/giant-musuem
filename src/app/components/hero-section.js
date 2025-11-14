@@ -8,6 +8,7 @@ export default function HeroSection() {
             <section className="relative h-screen w-full overflow-hidden">
 
                 {/* Background Image */}
+                {/* will replace when i find suitable bg */}
                 <Image
                     src={bg}
                     alt="Giant Museum Background"
@@ -16,7 +17,7 @@ export default function HeroSection() {
                     className="object-cover object-center -z-10"
                 />
 
-                {/* Soft Overlay */}
+                {/* overlay */}
                 <div className="absolute inset-0 bg-neutral-900/30 backdrop-blur-[1px] -z-5" />
 
                 {/* Centered Content */}
@@ -31,14 +32,14 @@ export default function HeroSection() {
                     <article className="max-w-2xl">
                         <h2 className="text-2xl md:text-3xl font-light leading-snug text-white tracking-wide">
                             Explore the wonders of the Giant Museum—where history becomes
-                            an experience. Discover the wonders of our world.
+                            an experience. Discover the magic in our world.
                         </h2>
                     </article>
                 </div>
 
                 {/* Bottom-Pinned JOURNEY Text */}
                 <div className="absolute bottom-[12vh] left-1/2 -translate-x-1/2 z-10">
-                    <h1 className="text-[16vw] md:text-[14vw] font-bold text-white/40 leading-none select-none tracking-tight">
+                    <h1 className="text-[16vw] md:text-[14vw] font-bold text-white/40 leading-none select-none tracking-wider">
                         JOURNEY
                     </h1>
                 </div>

@@ -48,11 +48,11 @@ This project demonstrates expertise in web design, UI/UX, content architecture, 
 
 *(Adjust according to your implementation)*
 
-* **Framework:** React / Next.js / Vue / HTML-CSS-JS
-* **Styling:** Tailwind CSS / SCSS / CSS Modules
-* **Animations:** Framer Motion / GSAP
-* **CMS:** Sanity, Contentful, Strapi *(optional)*
-* **Deployment:** Vercel / Netlify / GitHub Pages
+* **Framework:** Next.js / HTML-CSS-JS
+* **Styling:** Tailwind CSS 
+* **Animations:** GSAP
+* **CMS:** Sanity
+* **Deployment:** Vercel 
 * **Version Control:** Git + GitHub
 
 ---
@@ -66,10 +66,9 @@ This project demonstrates expertise in web design, UI/UX, content architecture, 
 
 /src
   ├─ components/
-  ├─ pages/
-  ├─ styles/
-  ├─ data/
-  └─ utils/
+  ├─ exhibits/
+  ├─ font/
+  └─ img/
 ```
 
 ---
@@ -114,8 +113,8 @@ bun run build
 
 ## 📸 Take a Peek
 
-*(Add screenshots here once available.)*
-
+*(Greyscale Hero)*
+![hero_sc.png](public/hero_sc.png)
 ---
 
 ## 📐 Future Features
@@ -129,6 +128,15 @@ bun run build
 
 ## 👤 Creator
 
-**Demitri Echols**
-Portfolio: *demitri26.vercel.app*
+**Demitri Echols** <br>
+Portfolio: *demitri26.vercel.app* <br>
 Email: *[iprogramidesign@gmail.com](mailto:iprogramidesign@gmail.com)*
+
+---
+
+[//]: # (erase section when project done)
+### next sprint
+- refactor readme more
+- add/erase fonts when skeleton complete for home'
+- fill in filler cards, after export as component [props plus dictionaries]
+- mobile layout

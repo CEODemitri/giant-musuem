@@ -17,7 +17,7 @@ export default function Home() {
                     </h2>
                     <p className="max-w-3xl text-sm text-neutral-600 leading-relaxed">
                         Dive into the vibrant world of the 1800s with our exclusive gallery.
-                        Experience the artistry and culture that defined an era.
+                        Experience the artistry and culture that defined an era still standing centuries later.
                         The wise will see.
                     </p>
                 </article>
@@ -29,7 +29,7 @@ export default function Home() {
                         </p>
 
                         <p className="text-xs tracking-wide">
-                            London, Paris
+                            London, Jotunheim
                         </p>
 
                         <div className="flex items-center gap-2 mt-2">
@@ -48,11 +48,11 @@ export default function Home() {
             {/* sub: attractions */}
             <div id="events" className="mt-20">
                 <h3 className="text-2xl font-semibold text-center text-neutral-800 tracking-tight mb-12">
-                    Popular Attractions
+                    Our Popular Attractions
                 </h3>
 
                 <div className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-                    {[...Array(2)].map((_, i) => (
+                    {[...Array(6)].map((_, i) => (
                         <div
                             key={i}
                             className="bg-white p-6 rounded-lg border border-neutral-200 shadow-sm hover:shadow-md transition-shadow duration-300"
@@ -161,17 +161,17 @@ export default function Home() {
 
 
         {/* about */}
-      <section id="about" class="w-full py-20 bg-white">
-        <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
-          <div class="w-full h-64 bg-gray-200 md:h-80 rounded-lg"></div>
+      <section id="about" className="w-full py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
+          <div className="w-full h-64 bg-gray-200 md:h-80 rounded-lg"></div>
 
-          <div class="max-w-xl">
-            <h3 class="text-4xl font-bold mb-6">About our Museum</h3>
-            <p class="text-gray-700 mb-4">
+          <div className="max-w-xl">
+            <h3 className="text-4xl font-bold mb-6">About our Museum</h3>
+            <p className="text-gray-700 mb-4">
               Dedicated to preserving the days of here and there. We present work in it&apos;s highest quality at each showcase. Our ultimate goal is to awaken and celebrating
               the true arts and cultures that shaped our reality and this world.
             </p>
-            <p class="text-gray-700">
+            <p className="text-gray-700">
               With rotating exhibits, educational programs, and community
               events, we aim to inspire visitors of all ages.
             </p>
@@ -180,38 +180,39 @@ export default function Home() {
       </section>
 
       {/* visit info */}
-      <section id="visit" class="w-full py-20 bg-gray-100">
-        <div class="max-w-5xl mx-auto px-4 text-center">
-          <h3 class="text-4xl font-bold mb-8">We'd love for You to Visit</h3>
+      <section id="visit" className="w-full py-20 bg-gray-100">
+        <div className="max-w-5xl mx-auto px-4 text-center">
+          <h3 className="text-4xl font-bold mb-8">We&apos;d love for You to Visit</h3>
 
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-white p-6 rounded-lg shadow">
-              <h4 class="text-xl font-semibold mb-2">Hours</h4>
-              <p class="text-gray-700 text-sm">Moon–Saturn: 6am – 9pm</p>
-              <p class="text-gray-700 text-sm">Sun: 10am – 9pm</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white p-6 rounded-lg shadow">
+              <h4 className="text-xl font-semibold mb-2">Hours</h4>
+              <p className="text-gray-700 text-sm">Moon–Saturn: 6am – 9pm</p>
+              <p className="text-gray-700 text-sm">Sun: 10am – 9pm</p>
             </div>
 
-            <div class="bg-white p-6 rounded-lg shadow">
-              <h4 class="text-xl font-semibold mb-2">Entrance</h4>
-              <p class="text-gray-700 text-sm">Adults: $8</p>
-              <p class="text-gray-700 text-sm">Students: $3</p>
-              <p class="text-gray-700 text-sm">Children: Free</p>
+            <div className="bg-white p-6 rounded-lg shadow">
+              <h4 className="text-xl font-semibold mb-2">Entrance</h4>
+              <p className="text-gray-700 text-sm">Adults: $8</p>
+              <p className="text-gray-700 text-sm">Students: $3</p>
+              <p className="text-gray-700 text-sm">Children: Free</p>
             </div>
 
-            <div class="bg-white p-6 rounded-lg shadow">
-              <h4 class="text-xl font-semibold mb-2">Location</h4>
-              <p class="text-gray-700 text-sm">8 Jotunheim Way, Art Land</p>
-              <p class="text-gray-700 text-sm">Free parking available</p>
+            <div className="bg-white p-6 rounded-lg shadow">
+              <h4 className="text-xl font-semibold mb-2">Location</h4>
+              <p className="text-gray-700 text-sm">8 Jotunheim Way, Art Land</p>
+              <p className="text-gray-700 text-sm">Free parking available</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* footer */}
-      <footer class="w-full py-8 bg-gray-900 text-white text-center">
-        <p class="text-sm">
+      <footer className="w-full py-8 bg-gray-900 text-white text-center">
+        <p className="text-sm">
           &copy; 2025 Museum of Art & History. All rights reserved.
         </p>
+
       </footer>
     </>
   );

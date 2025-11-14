@@ -34,7 +34,7 @@ function NavBar() {
       </div>
       <div className=" text-sm">
         {/* day info: temp, time, etc */}
-        <p>London, Paris</p>
+        <p>London, Jotunheim</p>
         <p className="text-[var(--foreground)]">
           <span>72°F</span> | <span>3:45 PM</span> | <span>Sunny</span> |{" "}
           <span>🌙</span>
@@ -54,7 +54,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <NavBar />
-        <div className="font-mono text-sm md:text-base leading-snug">
+        <div className="text-sm md:text-base leading-snug">
             {children}
         </div>
       </body>

@@ -7,18 +7,16 @@ export default function FeaturedGallery() {
   return (
     <section className="mb-12 bg-white/10 p-8 rounded-xl backdrop-blur-xl border border-white/20 transition-all duration-500">
       <article className="mb-8">
-        <h3 className="text-lg mb-2 text-[var(--foreground)] tracking-wide uppercase">
-          Featured Gallery
+        <h3 className="text-md mb-2 text-[var(--foreground)] tracking-wide uppercase">
+          Featured Presentation:
         </h3>
 
-        <h2 className="text-4xl mb-4 text-[var(--foreground)] font-bold leading-tight">
-          Masterpieces of the 1800s
+        <h2 className="text-5xl mb-4 text-[var(--foreground)] font-bold leading-tight">
+          Illuminating the 1800s
         </h2>
 
-        <p className="text-[var(--foreground)] text-base leading-relaxed max-w-2xl">
-          Discover our curated selection of timeless works from around the
-          world, showcasing masterful creations that shaped culture throughout the
-          1800s, once hidden away from the average citizen.
+        <p className="text-[var(--foreground)] text-base text-center m-auto max-w-2xl">
+          Did you think you knew the real history of the 1800s? Highly doubt you did; Giant museum uncovers the truth in mindblowing showcases. We made our truth assessable to everyone, for the world to explore.
         </p>
       </article>
 
