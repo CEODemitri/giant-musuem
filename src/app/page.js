@@ -153,6 +153,60 @@ export default function Home() {
           <h4>Ideas</h4>
         </article>
       </div>
+
+      {/* about */}
+      <section id="about" class="w-full py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
+          <div class="w-full h-64 bg-gray-200 md:h-80 rounded-lg"></div>
+
+          <div class="max-w-xl">
+            <h3 class="text-4xl font-bold mb-6">About the Museum</h3>
+            <p class="text-gray-700 mb-4">
+              Our museum is dedicated to preserving, showcasing, and celebrating
+              the arts and cultures that shaped the world.
+            </p>
+            <p class="text-gray-700">
+              With rotating exhibits, educational programs, and community
+              events, we aim to inspire visitors of all ages.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* visit info */}
+      <section id="visit" class="w-full py-20 bg-gray-100">
+        <div class="max-w-5xl mx-auto px-4 text-center">
+          <h3 class="text-4xl font-bold mb-8">Plan Your Visit</h3>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow">
+              <h4 class="text-xl font-semibold mb-2">Hours</h4>
+              <p class="text-gray-700 text-sm">Mon–Sat: 10am – 6pm</p>
+              <p class="text-gray-700 text-sm">Sun: 12pm – 5pm</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow">
+              <h4 class="text-xl font-semibold mb-2">Tickets</h4>
+              <p class="text-gray-700 text-sm">Adults: $18</p>
+              <p class="text-gray-700 text-sm">Students: $12</p>
+              <p class="text-gray-700 text-sm">Kids: Free</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow">
+              <h4 class="text-xl font-semibold mb-2">Location</h4>
+              <p class="text-gray-700 text-sm">123 Museum St, Art City</p>
+              <p class="text-gray-700 text-sm">Free parking available</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* footer */}
+      <footer class="w-full py-8 bg-gray-900 text-white text-center">
+        <p class="text-sm">
+          &copy; 2025 Museum of Art & History. All rights reserved.
+        </p>
+      </footer>
     </>
   );
 }
