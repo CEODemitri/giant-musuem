@@ -11,7 +11,7 @@ export default function Home() {
 
 
         {/* featured showcase */}
-        <section className="min-h-screen py-10 md:py-20 px-6 md:px-12 lg:px-24 bg-neutral-50 text-neutral-900">
+        <section className="min-h-screen py-10 md:py-16 px-6 md:px-12 lg:px-24 bg-neutral-50 text-neutral-900">
             {/* featured exhibit details and showcase */}
             <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-10">
                 <article>
@@ -49,7 +49,7 @@ export default function Home() {
             </div>
 
             {/* sub: attractions */}
-            <div id="events" className="mt-20">
+            <div id="events" className="mt-10">
                 <h3 className="text-2xl font-semibold text-center text-neutral-800 tracking-tight mb-12">
                     Our Popular Attractions
                 </h3>
@@ -88,25 +88,22 @@ export default function Home() {
 
 
 
-        {/* featured people and ideas */}
-        <section className="flex flex-col gap-20 px-6 md:px-12 lg:px-24 py-16">
-            <section className="px-6 md:px-12 lg:px-24 py-16">
-                <div className="flex flex-col md:flex-row justify-between items-center gap-6 mb-12">
+        {/* featured company philosophy and people */}
+        <section className="flex flex-col gap-10 px-6 md:px-10 lg:px-24 py-14">
+            <article className="px-6 md:px-12 lg:px-24 py-16">
 
                     {/* Brutalist title for Ideas */}
                     <h2 className="text-4xl font-extrabold uppercase border-b-4 border-black tracking-tight">
                         Explore the wonders of the Giant Museum
                     </h2>
 
-
-                </div>
-            </section>
+            </article>
 
 
             {/* -------------------- IDEAS  -------------------- */}
             <article className="bg-white p-6 rounded-xl shadow-lg text-neutral-900">
                 <h2 className="text-3xl md:text-4xl font-semibold mb-8 ">
-                    Ideas
+                    Our Philosophy
                 </h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -130,7 +127,7 @@ export default function Home() {
             {/* -------------------- PEOPLE -------------------- */}
             <article className="bg-white p-6 rounded-xl shadow-lg">
                 <h2 className="text-3xl md:text-4xl font-semibold mb-8 text-neutral-900">
-                    People
+                    Our People
                 </h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
@@ -169,14 +166,14 @@ export default function Home() {
           <div className="w-full h-64 bg-gray-200 md:h-80 rounded-lg"></div>
 
           <div className="max-w-xl">
-            <h3 className="text-4xl font-bold mb-6">About our Museum</h3>
+            <h3 className="text-4xl font-bold mb-6">About Giant Museum</h3>
             <p className="text-gray-700 mb-4">
               Dedicated to preserving the days of here and there. We present work in it&apos;s highest quality at each showcase. Our ultimate goal is to awaken and celebrating
               the true arts and cultures that shaped our reality and this world.
             </p>
             <p className="text-gray-700">
               With rotating exhibits, educational programs, and community
-              events, we aim to inspire visitors of all ages.
+              events, we aim to inspire visitors of all ages in perpetuity.
             </p>
           </div>
         </div>
@@ -203,7 +200,7 @@ export default function Home() {
 
             <div className="bg-white p-6 rounded-lg shadow">
               <h4 className="text-xl font-semibold mb-2">Location</h4>
-              <p className="text-gray-700 text-sm">8 Jotunheim Way, Art Land</p>
+              <p className="text-gray-700 text-sm font-bold">8 Jotunheim Way, Art Land</p>
               <p className="text-gray-700 text-sm">Free parking available</p>
             </div>
           </div>

@@ -40,13 +40,11 @@ This project demonstrates expertise in web design, UI/UX, content architecture, 
 * **Events & Educational Programs**
 * **Responsive design** for mobile, tablet, and desktop
 * **Accessibility improvements** such as alt text, contrast, and keyboard navigation
-* **Optional CMS integration** (Sanity, Contentful, WordPress, etc.)
+* **Optional CMS integration** 
 
 ---
 
 ## 🛠️ Tech Stack
-
-*(Adjust according to your implementation)*
 
 * **Framework:** Next.js / HTML-CSS-JS
 * **Styling:** Tailwind CSS 
