@@ -1,8 +1,6 @@
 import { Palette, Music, Calendar } from "lucide-react";
 import HeroSection from "@/app/components/hero-section";
-
-let date = new Date();
-let currentYear = new Date().getFullYear();
+import Footer from "@/app/components/footer";
 
 export default function Home() {
   return (
@@ -161,7 +159,7 @@ export default function Home() {
 
 
         {/* about */}
-      <section id="about" className="w-full py-20 bg-white">
+        <section id="about" className="w-full py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
           <div className="w-full h-64 bg-gray-200 md:h-80 rounded-lg"></div>
 
@@ -179,8 +177,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* visit info */}
-      <section id="visit" className="w-full py-20 bg-gray-100">
+        {/* visit info */}
+        <section id="visit" className="w-full py-20 bg-gray-100">
         <div className="max-w-5xl mx-auto px-4 text-center">
           <h3 className="text-4xl font-bold mb-8">We&apos;d love for You to Visit</h3>
 
@@ -207,13 +205,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* footer */}
-      <footer className="w-full py-8 bg-neutral-900 text-white text-center">
-        <p className="text-sm">
-          &copy; {currentYear} Giant Museum of Art & History. All rights reserved.
-        </p>
-
-      </footer>
+        {/* footer */}
+        <Footer />
     </>
   );
 }
