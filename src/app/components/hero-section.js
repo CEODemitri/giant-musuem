@@ -4,10 +4,10 @@ import FeaturedGallery from "@/app/components/featured-gallery";
 
 export default function HeroSection() {
     return (
-        <main className="flex flex-col min-h-screen bg-white text-neutral-900 mt-8">
-            <section className="relative h-screen w-full overflow-hidden">
+        <main className="flex flex-col min-h-screen bg-white text-neutral-900 mt-16 md:mt-8">
+            <section className="relative flex flex-col min-h-screen w-full overflow-hidden">
 
-                {/* Background Image */}
+                {/* Background */}
                 {/* will replace when i find suitable bg */}
                 <Image
                     src={bg}
@@ -16,41 +16,38 @@ export default function HeroSection() {
                     priority
                     className="object-cover object-center -z-10"
                 />
-
-                {/* overlay */}
                 <div className="absolute inset-0 bg-neutral-900/30 backdrop-blur-[1px] -z-5" />
 
-                {/* Centered Content */}
-                <div className="relative z-16 flex flex-col items-center h-full gap-10 text-center px-6">
+                {/* Main Content – centered vertically but allows bottom content */}
+                <div className="flex flex-col items-center justify-center flex-grow gap-10 px-6 text-center mt-16">
 
-                    {/* Featured Gallery Block */}
-                    <div className="max-w-6xl mt-[14vh] drop-shadow-xl">
+                    <div className="max-w-6xl drop-shadow-xl">
                         <FeaturedGallery />
                     </div>
 
-                    {/* Subtitle / Tagline */}
                     <article className="max-w-2xl">
-                        <h2 className="text-2xl md:text-3xl font-light leading-snug text-white tracking-wide">
+                        <h2 className="text-2xl md:text-3xl font-light leading-snug text-black/40 tracking-wide">
                             Explore the wonders of the Giant Museum—where history becomes
                             an experience. Discover the magic in our world.
                         </h2>
                     </article>
                 </div>
 
-                {/* Bottom-Pinned JOURNEY Text */}
-                <div className="absolute bottom-[12vh] left-1/2 -translate-x-1/2 z-10">
-                    <h1 className="text-[16vw] md:text-[14vw] font-bold text-white/40 leading-none select-none tracking-wider">
+                {/* Bottom Area */}
+                <div className="flex flex-col items-center mb-8 space-y-4">
+
+                    <h1 className="text-[16vw] md:text-[14vw] font-bold text-black/40 leading-none select-none tracking-wider">
                         JOURNEY
                     </h1>
-                </div>
 
-                {/* Scroll Indicator */}
-                <div className="absolute bottom-[3vh] left-1/2 -translate-x-1/2 z-10">
-                    <p className="text-sm text-white/80 tracking-wide">
+                    <p className="text-sm text-black/60 tracking-wide">
                         Scroll to Explore
                     </p>
+
                 </div>
+
             </section>
         </main>
+
     )
 }

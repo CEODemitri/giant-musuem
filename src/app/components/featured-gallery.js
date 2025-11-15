@@ -7,15 +7,15 @@ export default function FeaturedGallery() {
   return (
     <section className="mb-12 bg-white/10 p-8 rounded-xl backdrop-blur-xl border border-white/20 transition-all duration-500">
       <article className="mb-8">
-        <h3 className="text-md mb-2 text-[var(--foreground)] tracking-wide uppercase">
+        <h3 className="text-md mb-2 text-black/40 tracking-wide uppercase">
           Featured Presentation:
         </h3>
 
-        <h2 className="text-5xl mb-4 text-[var(--foreground)] font-bold leading-tight">
+        <h2 className="text-5xl mb-4 text-black/40 font-bold leading-tight">
           Illuminating the 1800s
         </h2>
 
-        <p className="text-[var(--foreground)] text-base text-center m-auto max-w-2xl">
+        <p className="text-black/40 text-base text-center m-auto max-w-2xl">
           Did you think you knew the real history of the 1800s? Highly doubt you did; Giant museum uncovers the truth in mindblowing showcases. We made our truth assessable to everyone, for the world to explore.
         </p>
       </article>

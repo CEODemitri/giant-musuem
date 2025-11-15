@@ -137,6 +137,6 @@ Email: *[iprogramidesign@gmail.com](mailto:iprogramidesign@gmail.com)*
 [//]: # (erase section when project done)
 ### next sprint
 - refactor readme more
-- add/erase fonts when skeleton complete for home'
+- set full color, use background, foreground
+- add/erase fonts when skeleton complete for home
 - fill in filler cards, after export as component [props plus dictionaries]
-- mobile layout

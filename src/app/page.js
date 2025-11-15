@@ -1,6 +1,9 @@
 import { Palette, Music, Calendar } from "lucide-react";
 import HeroSection from "@/app/components/hero-section";
 
+let date = new Date();
+let currentYear = new Date().getFullYear();
+
 export default function Home() {
   return (
     <>
@@ -8,7 +11,7 @@ export default function Home() {
 
 
         {/* featured showcase */}
-        <section className="h-screen py-20 px-6 md:px-12 lg:px-24 bg-neutral-50 text-neutral-900">
+        <section className="min-h-screen py-10 md:py-20 px-6 md:px-12 lg:px-24 bg-neutral-50 text-neutral-900">
             {/* featured exhibit details and showcase */}
             <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-10">
                 <article>
@@ -101,8 +104,8 @@ export default function Home() {
 
 
             {/* -------------------- IDEAS  -------------------- */}
-            <article className="bg-white p-6 rounded-xl shadow-lg">
-                <h2 className="text-3xl md:text-4xl font-semibold mb-8 text-neutral-900">
+            <article className="bg-white p-6 rounded-xl shadow-lg text-neutral-900">
+                <h2 className="text-3xl md:text-4xl font-semibold mb-8 ">
                     Ideas
                 </h2>
 
@@ -110,7 +113,7 @@ export default function Home() {
                     {[...Array(4)].map((_, i) => (
                         <div
                             key={i}
-                            className="hover:bg-black hover:text-white hover:border-2 border-b-red-400 transition-colors duration-200 pt-4"
+                            className="hover:bg-black hover:text-white hover:border-2 border-b-red-400 transition-colors duration-200 p-6 rounded-xl"
                         >
                             <h3 className="text-xl font-extrabold uppercase mb-2">
                                 Concept {i + 1}
@@ -208,9 +211,9 @@ export default function Home() {
       </section>
 
       {/* footer */}
-      <footer className="w-full py-8 bg-gray-900 text-white text-center">
+      <footer className="w-full py-8 bg-neutral-900 text-white text-center">
         <p className="text-sm">
-          &copy; 2025 Museum of Art & History. All rights reserved.
+          &copy; {currentYear} Giant Museum of Art & History. All rights reserved.
         </p>
 
       </footer>

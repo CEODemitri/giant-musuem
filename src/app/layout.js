@@ -18,9 +18,19 @@ export const metadata = {
     "Full Stack web Application using Next.js 14 and Tailwind CSS by ceoDemitri",
 };
 
+let date = new Date();
+let currentDayOfMonth = date.getDate();
+let currentMonth = date.getMonth();
+let currentYear = date.getFullYear();
+let fullDate = `${currentMonth}/${currentDayOfMonth}/${currentYear}`;
+
+let currentHours = date.getHours();
+let currentMinutes = date.getMinutes();
+let currentTime = `${currentHours}:${currentMinutes}`;
+
 function NavBar() {
   return (
-    <nav className="absolute top-0 left-0 w-full flex items-center justify-between p-6 bg-[var(--background)] bg-opacity-70 z-10">
+    <nav className="absolute top-0 left-0 w-full flex items-start justify-between p-6 bg-[var(--background)] bg-opacity-70 z-10">
       <div>
         <p className="text-2xl font-bold text-[var(--foreground)]">
           Giant Museum
@@ -36,11 +46,11 @@ function NavBar() {
         {/* day info: temp, time, etc */}
         <p>London, Jotunheim</p>
         <p className="text-[var(--foreground)]">
-          <span>72°F</span> | <span>3:45 PM</span> | <span>Sunny</span> |{" "}
+          <span>72°F</span> |  <span>Sunny</span> |{" "}
           <span>🌙</span>
         </p>
         <p>
-          <span>June 15, 2024</span> | <span>3:45 PM</span>
+          <span>{fullDate}</span> | <span>{currentTime} {currentHours >= 12 ? 'PM' : 'AM'}</span>
         </p>
       </div>
     </nav>
