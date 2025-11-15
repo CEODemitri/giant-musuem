@@ -5,7 +5,7 @@ import gallery3 from "../img/gallery3.jpg";
 
 export default function FeaturedGallery() {
   return (
-    <section className="mb-12 bg-white/10 p-8 rounded-xl backdrop-blur-xl border border-white/20 transition-all duration-500">
+    <section className="mb-10 bg-white/10 p-8 rounded-xl backdrop-blur-xl border border-white/20 transition-all duration-500">
       <article className="mb-8">
         <h3 className="text-md mb-2 text-black/40 tracking-wide uppercase">
           Featured Presentation:

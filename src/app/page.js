@@ -100,7 +100,7 @@ export default function Home() {
             </article>
 
 
-            {/* -------------------- IDEAS  -------------------- */}
+            {/* -------------------- philo  -------------------- */}
             <article className="bg-white p-6 rounded-xl shadow-lg text-neutral-900">
                 <h2 className="text-3xl md:text-4xl font-semibold mb-8 ">
                     Our Philosophy
@@ -124,7 +124,7 @@ export default function Home() {
                 </div>
             </article>
 
-            {/* -------------------- PEOPLE -------------------- */}
+            {/* -------------------- people -------------------- */}
             <article className="bg-white p-6 rounded-xl shadow-lg">
                 <h2 className="text-3xl md:text-4xl font-semibold mb-8 text-neutral-900">
                     Our People
