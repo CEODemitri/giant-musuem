@@ -136,5 +136,4 @@ Email: *[iprogramidesign@gmail.com](mailto:iprogramidesign@gmail.com)*
 ### next sprint
 - refactor readme more
 - set full color, use background, foreground
-- add/erase fonts when skeleton complete for home
 - fill in filler cards, after export as component [props plus dictionaries]
