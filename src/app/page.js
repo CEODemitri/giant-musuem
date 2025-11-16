@@ -1,6 +1,7 @@
 import { Palette, Music, Calendar } from "lucide-react";
 import HeroSection from "@/app/components/hero-section";
 import Footer from "@/app/components/footer";
+import {AboutGrid} from "@/app/components/about";
 
 export default function Home() {
   return (
@@ -84,126 +85,64 @@ export default function Home() {
             </div>
         </section>
 
+        {/* about museum */}
+        <AboutGrid />
 
-
-        {/* featured company philosophy and people */}
-        <section className="flex flex-col gap-10 px-6 md:px-10 lg:px-24 py-14">
-            <article className="px-6 md:px-12 lg:px-24 py-16">
-
-                    {/* Brutalist title for Ideas */}
-                    <h2 className="text-4xl font-extrabold uppercase border-b-4 border-black tracking-tight">
-                        Explore the wonders of the Giant Museum
-                    </h2>
-
-            </article>
-
-
-            {/* -------------------- philo  -------------------- */}
-            <article className="bg-white p-6 rounded-xl shadow-lg text-neutral-900">
-                <h2 className="text-3xl md:text-4xl font-semibold mb-8 ">
-                    Our Philosophy
-                </h2>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {[...Array(4)].map((_, i) => (
-                        <div
-                            key={i}
-                            className="hover:bg-black hover:text-white hover:border-2 border-b-red-400 transition-colors duration-200 p-6 rounded-xl"
-                        >
-                            <h3 className="text-xl font-extrabold uppercase mb-2">
-                                Concept {i + 1}
-                            </h3>
-                            <p className="text-xs leading-snug">
-                                Explore a groundbreaking concept shaping the museum experience.
-                                Bold ideas that challenge the imagination and invite reflection.
+        {/* upcoming exhibit info */}
+        <section className="py-32 px-6 bg-neutral-100">
+            <div className="max-w-7xl mx-auto">
+                <div className="grid lg:grid-cols-2 gap-12 lg:gap-24 items-center">
+                    <div className="space-y-8">
+                        <div className="space-y-4">
+                            <p className="text-sm font-medium tracking-widest uppercase">
+                                Coming Soon
+                            </p>
+                            <h2 className="text-5xl md:text-6xl text-balance">
+                                Upcoming Exhibitions
+                            </h2>
+                            <p className="text-lg leading-relaxed">
+                                Discover our carefully curated selection of upcoming exhibitions
+                                that will transport you through time, culture, and artistic
+                                innovation.
                             </p>
                         </div>
-                    ))}
-                </div>
-            </article>
 
-            {/* -------------------- people -------------------- */}
-            <article className="bg-white p-6 rounded-xl shadow-lg">
-                <h2 className="text-3xl md:text-4xl font-semibold mb-8 text-neutral-900">
-                    Our People
-                </h2>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
-                    {[...Array(4)].map((_, i) => (
-                        <div
-                            key={i}
-                            className="bg-neutral-50 rounded-xl shadow hover:shadow-xl transition-shadow duration-300 p-6"
-                        >
-                            <div className="flex items-center justify-between mb-4">
-            <span className="text-sm font-medium text-neutral-800">
-              Artist {i + 1}
-            </span>
-                                {/* Placeholder for image */}
+                        <div className="space-y-6">
+                            <div className="border-l-2 border-b-neutral-300 pl-6 space-y-2">
+                                <p className="text-sm">March 2026</p>
+                                <h3 className="text-2xl">Ancient Civilizations</h3>
+                                <p className="text-neutral-500/70">
+                                    Explore the mysteries of ancient Egypt, Rome, and Greece
+                                </p>
                             </div>
 
-                            <article className="space-y-2">
-                                <h3 className="text-lg md:text-xl font-semibold text-neutral-900">
-                                    Exhibition: The Color of Dreams
-                                </h3>
-                                <p className="text-neutral-600 text-sm leading-relaxed">
-                                    Join us for an immersive journey through the latest collection,
-                                    exploring the vivid landscapes of the subconscious mind.
+                            <div className="border-l-2 border-accent pl-6 space-y-2">
+                                <p className="text-sm">April 2026</p>
+                                <h3 className="text-2xl">Modern Masters</h3>
+                                <p className="text-neutral-500/70">
+                                    A retrospective of 20th century artistic movements
                                 </p>
-                            </article>
+                            </div>
                         </div>
-                    ))}
+
+                        <button className="mt-4 bg-white">
+                            View Full Calendar
+                        </button>
+                    </div>
+
+                    <div className="grid grid-cols-2 gap-6">
+                        <div className="space-y-6">
+                            <div className="aspect-[3/4] bg-neutral-500/70 rounded-lg" />
+                            <div className="aspect-square bg-neutral-500/70 rounded-lg" />
+                        </div>
+                        <div className="space-y-6 pt-12">
+                            <div className="aspect-square bg-neutral-500/70 rounded-lg" />
+                            <div className="aspect-[3/4] bg-neutral-500/70 rounded-lg" />
+                        </div>
+                    </div>
                 </div>
-            </article>
-
+            </div>
         </section>
-
-
-        {/* about */}
-        <section id="about" className="w-full py-20 bg-white">
-        <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
-          <div className="w-full h-64 bg-gray-200 md:h-80 rounded-lg"></div>
-
-          <div className="max-w-xl">
-            <h3 className="text-4xl font-bold mb-6">About Giant Museum</h3>
-            <p className="text-gray-700 mb-4">
-              Dedicated to preserving the days of here and there. We present work in it&apos;s highest quality at each showcase. Our ultimate goal is to awaken and celebrating
-              the true arts and cultures that shaped our reality and this world.
-            </p>
-            <p className="text-gray-700">
-              With rotating exhibits, educational programs, and community
-              events, we aim to inspire visitors of all ages in perpetuity.
-            </p>
-          </div>
-        </div>
-      </section>
-
-        {/* visit info */}
-        <section id="visit" className="w-full py-20 bg-gray-100">
-        <div className="max-w-5xl mx-auto px-4 text-center">
-          <h3 className="text-4xl font-bold mb-8">We&apos;d love for You to Visit</h3>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow">
-              <h4 className="text-xl font-semibold mb-2">Hours</h4>
-              <p className="text-gray-700 text-sm">Moon–Saturn: 6am – 9pm</p>
-              <p className="text-gray-700 text-sm">Sun: 10am – 9pm</p>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow">
-              <h4 className="text-xl font-semibold mb-2">Entrance</h4>
-              <p className="text-gray-700 text-sm">Adults: $8</p>
-              <p className="text-gray-700 text-sm">Students: $3</p>
-              <p className="text-gray-700 text-sm">Children: Free</p>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow">
-              <h4 className="text-xl font-semibold mb-2">Location</h4>
-              <p className="text-gray-700 text-sm font-bold">8 Jotunheim Way, Art Land</p>
-              <p className="text-gray-700 text-sm">Free parking available</p>
-            </div>
-          </div>
-        </div>
-      </section>
 
         {/* footer */}
         <Footer />

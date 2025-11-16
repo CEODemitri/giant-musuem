@@ -1,53 +1,85 @@
 import Image from "next/image";
 import bg from "@/app/img/mainbg.jpeg";
 import FeaturedGallery from "@/app/components/featured-gallery";
+import { ArrowRight } from "lucide-react";
 
 export default function HeroSection() {
     return (
-        <main className="flex flex-col min-h-screen bg-white text-neutral-900 mt-6">
-            <section className="relative flex flex-col min-h-screen w-full overflow-hidden">
+        <section className="relative h-screen w-full overflow-hidden">
 
-                {/* Background */}
-                {/* will replace when i find suitable bg */}
-                <Image
-                    src={bg}
-                    alt="Giant Museum Background"
-                    fill
-                    priority
-                    className="object-cover object-center -z-10"
-                />
-                <div className="absolute inset-0 bg-neutral-900/30 backdrop-blur-[1px] -z-5" />
+            {/* Content overlay */}
+            <div className="relative z-10 h-full flex items-center">
+                <div className="max-w-[1600px] mx-auto px-6 lg:px-12 w-full">
+                    <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+                        {/* Left content */}
+                        <div className="space-y-6">
+                            <div className="inline-block px-3 py-1 bg-neutral-200/80 backdrop-blur-sm rounded-full">
+                <span className="text-xs font-medium tracking-wide uppercase">
+                  Now Exhibiting
+                </span>
+                            </div>
 
-                {/* Main Content – centered vertically but allows bottom content */}
-                <div className="flex flex-col items-center justify-center flex-grow gap-10 px-6 text-center mt-28">
+                            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-balance leading-[0.95]">
+                                <span className="">Illuminating</span>
+                                <br />
+                                <span className="">1800s</span>
+                            </h1>
 
-                    <div className="max-w-6xl drop-shadow-xl">
-                        <FeaturedGallery />
+                            <p className="text-lg md:text-xl text-neutral-500/70 max-w-xl text-pretty leading-relaxed">
+                                Experience classical masterpieces through contemporary perspectives.
+                                A groundbreaking exhibition featuring 50+ works from the not so distant past.
+                            </p>
+
+                            <div className="flex flex-wrap gap-4 pt-4">
+                                <button className="flex items-center">
+                                    Explore Exhibition
+                                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                                </button>
+                                <button className="bg-neutral-400/80 backdrop-blur-sm">
+                                    View Schedule
+                                </button>
+                            </div>
+
+                            <div className="flex items-center gap-8 pt-6">
+                                <div>
+                                    <div className="text-3xl font-bold text-neutral-500/70">500+</div>
+                                    <div className="text-sm text-neutral-500/50">Masterworks</div>
+                                </div>
+                                <div className="h-12 w-px bg-text-neutral-200/70" />
+                                <div>
+                                    <div className="text-3xl font-bold text-neutral-500/70">18th-20th</div>
+                                    <div className="text-sm text-neutral-500/50">Centuries</div>
+                                </div>
+                                <div className="h-12 w-px bg-secondary/20" />
+                                <div>
+                                    <div className="text-3xl font-bold text-neutral-500/70">Until Dec 31</div>
+                                    <div className="text-sm text-neutral-500/50">Limited Time</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Right featured artwork */}
+                        <div className="relative">
+                            <div className="aspect-[3/4] rounded-2xl overflow-hidden bg-secondary/10 backdrop-blur-sm border border-secondary/20 shadow-2xl">
+                                <img
+                                    src="/renaissance-painting-masterpiece.jpg"
+                                    alt="Featured Renaissance artwork"
+                                    className="w-full h-full object-cover"
+                                />
+                            </div>
+
+                            {/* Floating info card */}
+                            <div className="absolute bottom-6 left-6 right-6 bg-background/95 backdrop-blur-md rounded-xl p-6 border border-border shadow-lg">
+                                <h3 className="font-semibold text-lg mb-1">The Birth of Venus</h3>
+                                <p className="text-sm text-muted-foreground mb-3">Sandro Botticelli, c. 1485</p>
+                                <p className="text-sm text-foreground/80">
+                                    Oil on canvas, 172.5 cm × 278.9 cm
+                                </p>
+                            </div>
+                        </div>
                     </div>
-
-                    <article className="max-w-2xl">
-                        <h2 className="text-2xl md:text-3xl font-light leading-snug text-black/40 tracking-wide">
-                            Explore the wonders of the Giant Museum—where history becomes
-                            an experience. Discover the magic in our world.
-                        </h2>
-                    </article>
                 </div>
-
-                {/* Bottom Area */}
-                <div className="flex flex-col items-center mb-8 space-y-4">
-
-                    <h1 className="text-[16vw] md:text-[14vw] font-bold text-black/40 leading-none select-none tracking-wider">
-                        JOURNEY
-                    </h1>
-
-                    <p className="text-sm text-black/60 tracking-wide">
-                        Scroll to Explore
-                    </p>
-
-                </div>
-
-            </section>
-        </main>
-
+            </div>
+        </section>
     )
 }

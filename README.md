@@ -134,6 +134,7 @@ Email: *[iprogramidesign@gmail.com](mailto:iprogramidesign@gmail.com)*
 
 [//]: # (erase section when project done)
 ### next sprint
-- refactor readme more
-- set full color, use background, foreground
-- fill in filler cards, after export as component [props plus dictionaries]
+- refactor all more
+- popular attractions small filler cards, after export as component [props plus dictionaries]
+- set full color, use css variables and stuff
+- actual copy
