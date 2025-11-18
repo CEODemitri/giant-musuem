@@ -1,28 +1,26 @@
-Next JS project #1 11/2025
+NextJS project #1 11/2025
 
-## 11 4 2025 revamp
-Redesign of this app. Great potential in need of fulfilling.
-- [ ] HomePage
-      image by [The Cleveland Museum of Art]
+## 11 4 2025 ⭐️
+I started this project in bliss; now i use my skills and create something beautiful. At surface, I am going with the flow for this project. Interesting experiment.
 
 ---
 
 # 📚 Giant Museum Portfolio Website
 
-*A Huge museum overflowing with artifacts from the ancient future and the distant past. Curated digital experience showcasing exhibitions, collections, and cultural programs.*
+*A Huge museum overflowing with artifacts from the ancient future and the distant past. Carefully curated digital experience showcasing exhibitions, collections, and a fresh perspective.*
 
 ## 🖼️ Overview
 
 The **Giant Museum Portfolio Website** is a modern, accessible, and responsive digital experience designed to highlight a museum’s identity, exhibitions, permanent collections, and educational initiatives.
 The site aims to bridge digital and physical spaces by offering visitors an engaging, intuitive, and visually rich interface.
 
-This project demonstrates expertise in web design, UI/UX, content architecture, and front-end development.
+This project demonstrates expertise in Web Developement, UI/UX, Content Architecture, and Project Management.
 
 ---
 
 ## 🎯 Objectives
 
-* Present museum information in a clean, organized, and visually appealing way
+* Present museum information in a vibrant, organized, and visually appealing way
 * Ensure accessibility following WCAG principles
 * Create a flexible content structure suitable for art, history, culture, and science museums
 * Provide an immersive storytelling experience through imagery, typography, and layout
@@ -40,7 +38,7 @@ This project demonstrates expertise in web design, UI/UX, content architecture, 
 * **Events & Educational Programs**
 * **Responsive design** for mobile, tablet, and desktop
 * **Accessibility improvements** such as alt text, contrast, and keyboard navigation
-* **Optional CMS integration** 
+* **[Good to have] CMS integration** 
 
 ---
 
@@ -52,6 +50,7 @@ This project demonstrates expertise in web design, UI/UX, content architecture, 
 * **CMS:** Sanity
 * **Deployment:** Vercel 
 * **Version Control:** Git + GitHub
+* Project Assistant for menial tasks: ChatGPT, v0.dev
 
 ---
 
@@ -65,7 +64,6 @@ This project demonstrates expertise in web design, UI/UX, content architecture, 
 /src
   ├─ components/
   ├─ exhibits/
-  ├─ font/
   └─ img/
 ```
 
@@ -102,7 +100,7 @@ bun run build
 
 ## 💡 Design Principles
 
-* **Minimalist layout** to emphasize artwork and exhibitions
+* **Modern layout** to emphasize artwork and exhibitions
 * **High-quality media** to enhance the gallery experience
 * **Elegant, museum-inspired typography**
 * **Consistent grid and spacing system** for visual balance
