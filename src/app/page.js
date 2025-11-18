@@ -1,12 +1,12 @@
 import { Palette, Music, Calendar } from "lucide-react";
-import HeroSection from "@/app/components/hero-section";
-import Footer from "@/app/components/footer";
+import HeroSection from "./components/hero-section";
+import Footer from "./components/footer";
 import {AboutGrid} from "@/app/components/about";
 
 export default function Home() {
   return (
     <>
-        <HeroSection />
+        <HeroSection/>
 
 
         {/* featured showcase */}

@@ -23,7 +23,7 @@ function NavBar() {
     <header className="fixed top-0 left-0 right-0 z-50">
         <nav className="absolute top-0 left-0 w-full flex items-end justify-between px-6 bg-[var(--background)] bg-opacity-70 z-10">
             <div>
-                <p className="text-2xl font-bold text-[var(--foreground)]">
+                <p className="text-2xl font-bold">
                     Giant Museum
                 </p>
                 <ul className="flex space-x-6 text-[var(--foreground)]">

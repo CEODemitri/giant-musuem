@@ -1,10 +1,11 @@
 import Image from "next/image";
-import gallery1 from "../img/gallery1.jpg";
-import gallery2 from "../img/gallery2.jpg";
-import gallery3 from "../img/gallery3.jpg";
+import gallery1 from "../../../public/img/gallery1.jpg";
+import gallery2 from "../../../public/img/gallery2.jpg";
+import gallery3 from "../../../public/img/gallery3.jpg";
 
 export default function FeaturedGallery() {
   return (
+      // may be deleting soon or find a good use
     <section className="mb-10 bg-white/10 p-8 rounded-xl backdrop-blur-xl border border-white/20 transition-all duration-500">
       <article className="mb-8">
         <h3 className="text-md mb-2 text-black/40 tracking-wide uppercase">
