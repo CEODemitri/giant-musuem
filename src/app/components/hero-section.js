@@ -10,7 +10,7 @@ export default function HeroSection() {
                     <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         {/* Left content */}
                         <div className="space-y-6">
-                            <div className="inline-block px-3 py-1 bg-neutral-200/80 backdrop-blur-sm rounded-full">
+                            <div className="inline-block px-3 py-1 bg-accentlight text-background backdrop-blur-sm rounded-full">
                 <span className="text-xs font-medium tracking-wider uppercase">
                   Featured Exhibition
                 </span>
@@ -28,7 +28,7 @@ export default function HeroSection() {
                             </p>
 
                             <div className="flex flex-wrap gap-4 pt-4">
-                                <button className="flex items-center bg-neutral-400/80 backdrop-blur-sm px-2 rounded-md">
+                                <button className=" border border-accent flex items-center bg-primary text-background backdrop-blur-sm px-2 rounded-md">
                                     Explore Exhibition
                                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                                 </button>

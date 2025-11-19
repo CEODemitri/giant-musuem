@@ -111,6 +111,8 @@ bun run build
 
 *(Greyscale Hero)*
 ![hero_sc.png](public/hero_sc.png)
+*(Version 2)*
+![hero_v2_sc.png](public/hero_v2_sc.png)
 ---
 
 ## 📐 Future Features
@@ -132,6 +134,5 @@ Email: *[iprogramidesign@gmail.com](mailto:iprogramidesign@gmail.com)*
 
 [//]: # (erase section when project done)
 ### next sprint
-- popular attractions small filler cards, after export as component [props plus dictionaries]
 - set full color, use css variables and stuff
 - actual copy

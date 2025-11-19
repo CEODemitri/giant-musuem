@@ -34,7 +34,7 @@ function NavBar() {
                 </ul>
             </div>
             <div>
-                <button className="bg-neutral-400 px-4 py-1 rounded-md text-white tracking-wider uppercase">Tickets</button>
+                <button className="bg-accent px-4 py-1 rounded-md text-white tracking-wider uppercase">Tickets</button>
             </div>
         </nav>
         <div className="text-sm relative top-[6vh] left-[85vw] z-10 border border-b-neutral-300 w-fit p-2 rounded-md">
