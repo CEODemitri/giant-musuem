@@ -28,11 +28,11 @@ export default function HeroSection() {
                             </p>
 
                             <div className="flex flex-wrap gap-4 pt-4">
-                                <button className=" border border-accent flex items-center bg-primary text-background backdrop-blur-sm px-2 rounded-md">
+                                <button className="hover:bg-accent border border-accent flex items-center bg-primary text-background backdrop-blur-sm px-2 rounded-md">
                                     Explore Exhibition
                                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                                 </button>
-                                <button className="border-2 p-2 rounded-md border-neutral-500/60 backdrop-blur-sm">
+                                <button className="hover:bg-neutral-500 border-2 p-2 rounded-md border-neutral-500/60 backdrop-blur-sm">
                                     View Schedule
                                 </button>
                             </div>

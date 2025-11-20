@@ -3,6 +3,8 @@ import gallery1 from "../../../public/img/gallery1.jpg";
 import gallery2 from "../../../public/img/gallery2.jpg";
 import gallery3 from "../../../public/img/gallery3.jpg";
 
+// should maybe delete this file. or use it on the exhibits page?
+
 export default function FeaturedGallery() {
   return (
       // may be deleting soon or find a good use
