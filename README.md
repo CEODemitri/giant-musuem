@@ -134,5 +134,6 @@ Email: *[iprogramidesign@gmail.com](mailto:iprogramidesign@gmail.com)*
 
 [//]: # (erase section when project done)
 ### next sprint
-- set full color, use css variables and stuff
-- actual copy
+- take a break from this project
+- build the landing pae ui in figma, more musuemy
+- complete a next tutorial and have a list of ideas to enhance this project using next
