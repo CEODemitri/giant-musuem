@@ -134,6 +134,6 @@ Email: *[iprogramidesign@gmail.com](mailto:iprogramidesign@gmail.com)*
 
 [//]: # (erase section when project done)
 ### next sprint
-- take a break from this project
-- build the landing pae ui in figma, more musuemy
+- take a break from this project ( i dont need no break)
+- build the landing pae ui in figma, more museumy
 - complete a next tutorial and have a list of ideas to enhance this project using next

@@ -24,12 +24,11 @@ function NavBar() {
         <nav className="absolute top-0 left-0 w-full flex items-end justify-between px-6 bg-[var(--background)] bg-opacity-70 z-10">
             <div>
                 <p className="text-2xl font-bold">
-                    Giant Museum
+                    <a href="/">Giant Museum</a>
                 </p>
                 <ul className="flex space-x-6 text-[var(--foreground)]">
-                    <li className="hover:underline cursor-pointer"><a href={"/"}>Home</a></li>
                     <li className="hover:underline cursor-pointer"><a href={"./exhibits"}>Exhibits</a></li>
-                    <li className="hover:underline cursor-pointer">Blog</li>
+                    <li className="hover:underline cursor-pointer"><a href={"./calendar"}>Calendar</a></li>
                     <li className="hover:underline cursor-pointer">Contact</li>
                 </ul>
             </div>
