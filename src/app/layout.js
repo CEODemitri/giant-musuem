@@ -29,7 +29,7 @@ function NavBar() {
                 <ul className="flex space-x-6 text-[var(--foreground)]">
                     <li className="hover:underline cursor-pointer"><a href={"./exhibits"}>Exhibits</a></li>
                     <li className="hover:underline cursor-pointer"><a href={"./calendar"}>Calendar</a></li>
-                    <li className="hover:underline cursor-pointer">Contact</li>
+                    <li className="hover:underline cursor-pointer"><a href={"./contact"}>Contact</a></li>
                 </ul>
             </div>
             <div>

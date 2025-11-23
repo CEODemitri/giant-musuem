@@ -1,10 +1,10 @@
 export default function Exhibits() {
     return (
         <>
-            <main className="bg-white text-neutral-900 min-h-screen">
+            <main className="bg-background text-neutral-900 min-h-screen">
 
                 {/* -------------------- BRUTALIST HEADER -------------------- */}
-                <header className="bg-white border-b-8 border-black px-6 md:px-12 lg:px-24 py-16 text-center">
+                <header className=" border-b-8 border-black px-6 md:px-12 lg:px-24 py-16 text-center text-foreground">
                     <h1 className="text-5xl md:text-6xl font-extrabold uppercase tracking-tight mb-4 mt-20">
                         Exhibits
                     </h1>
