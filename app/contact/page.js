@@ -11,14 +11,14 @@ export default function Contact(props) {
             </header>
 
         {/*  main  */}
-            <form>
+            <form action="/contact" method="POST">
                 <p className="font-mono text-sm md:text-base leading-snug">
                     <label htmlFor="email" className="">Email: </label>
                     <input type="email" name="email" id="email"/>
                 </p>
                 <p className="font-mono text-sm md:text-base leading-snug">
                     <label htmlFor="email">Message: </label>
-                    <textarea name="email" id="email" rows="5" cols="30" rows="6"></textarea>
+                    <textarea name="email" id="email" rows="5" cols="30"></textarea>
                 </p>
                 <button className="hover:bg-accentlight px-8 py-2 bg-accent rounded-md">Submit</button>
             </form>
