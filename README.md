@@ -137,3 +137,7 @@ Email: *[iprogramidesign@gmail.com](mailto:iprogramidesign@gmail.com)*
 - ci/cd pipeline
 - build the landing pae ui in figma, more museumy
 - complete a next tutorial and have a list of ideas to enhance this project using next
+
+⭐STEP 7 — Configure Minikube to use Docker and prepare Terraform deployment.
+⭐ STEP 7.2 — Use Minikube’s Docker Daemon
+- STEP 7.3 — Configure Terraform deployment
