@@ -7,38 +7,9 @@
     <list default="true" id="17ca6ca7-c415-4e40-9d86-3accf38e48ac" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/calendar/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/calendar/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/featuredGallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/featuredGallery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/featuredShowcase.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/featuredShowcase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/heroSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/heroSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/upcomingExhibit.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/upcomingExhibit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/contact/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/exhibits/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/exhibits/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/app/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/fonts.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/fonts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chart/Chart.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/chart/Chart.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chart/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/chart/templates/deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chart/templates/ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/chart/templates/ingress.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chart/templates/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/chart/templates/service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chart/value.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/chart/value.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infra/terraform/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/infra/terraform/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infra/terraform/modules/helm/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/infra/terraform/modules/helm/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infra/terraform/modules/helm/outputs.tf" beforeDir="false" afterPath="$PROJECT_DIR$/infra/terraform/modules/helm/outputs.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infra/terraform/modules/helm/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/infra/terraform/modules/helm/variables.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infra/terraform/modules/kubernetes/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/infra/terraform/modules/kubernetes/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infra/terraform/modules/kubernetes/output.tf" beforeDir="false" afterPath="$PROJECT_DIR$/infra/terraform/modules/kubernetes/output.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infra/terraform/modules/kubernetes/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/infra/terraform/modules/kubernetes/variables.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infra/terraform/outputs.tf" beforeDir="false" afterPath="$PROJECT_DIR$/infra/terraform/outputs.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infra/terraform/providers.tf" beforeDir="false" afterPath="$PROJECT_DIR$/infra/terraform/providers.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infra/terraform/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/infra/terraform/variables.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infra/terraform/versions.tf" beforeDir="false" afterPath="$PROJECT_DIR$/infra/terraform/versions.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/contact/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +30,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -125,6 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1763911333796</updated>
       <workItem from="1763911335162" duration="10251000" />
+      <workItem from="1764047078243" duration="977000" />
     </task>
     <servers />
   </component>

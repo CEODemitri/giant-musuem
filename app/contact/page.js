@@ -1,13 +1,21 @@
 export default function Contact(props) {
     return (
         <>
-            <article className="bg-amber-400 mt-20">
-                <h1 className="text-rose-200 text-3xl"><span>Jan</span>2025 - <span>Jan</span>2026</h1>
-            </article>
+            <header className=" border-b-8 border-black px-6 md:px-12 lg:px-24 py-16 text-center text-foreground">
+                <h1 className="text-5xl md:text-6xl font-extrabold uppercase tracking-tight mb-4 mt-20">
+                    Speak Your Mind
+                </h1>
+                <p className="font-mono text-sm md:text-base leading-snug">
+                    Why hold back? We accept all opinions and will respond in as time allows. Thank you for your support!
+                </p>
+            </header>
 
-            <article className="bg-blue-400">
-                <h2>Light Show</h2>
-            </article>
+        {/*  main  */}
+
+
+        {/*  aside  */}
+
+        {/*  footer  */}
         </>
     )
 }
