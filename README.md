@@ -139,3 +139,4 @@ Email: *[iprogramidesign@gmail.com](mailto:iprogramidesign@gmail.com)*
 - complete a next tutorial and have a list of ideas to enhance this project using next
 
 - Forcing myself to learn. Here I have inherited this codebase. make it functional and a flip. 
+- Get Serious

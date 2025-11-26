@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="17ca6ca7-c415-4e40-9d86-3accf38e48ac" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/contact/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +27,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -97,7 +97,8 @@
       <option name="presentableId" value="Default" />
       <updated>1763911333796</updated>
       <workItem from="1763911335162" duration="10251000" />
-      <workItem from="1764047078243" duration="1668000" />
+      <workItem from="1764047078243" duration="1779000" />
+      <workItem from="1764131352467" duration="11000" />
     </task>
     <servers />
   </component>
