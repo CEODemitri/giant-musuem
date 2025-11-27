@@ -1,9 +1,9 @@
 variable "namespace" {
-  default = "giantmuseum"
+  default = "giantmuseumweb"
 }
 
 variable "image" {
-  default = "giantmuseum:latest"
+  default = "giantmuseumweb:latest"
 }
 
 variable "replicas" {

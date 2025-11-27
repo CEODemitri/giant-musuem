@@ -18,7 +18,7 @@ variable "chart_path" {
 
 variable "image_repository" {
   type = string
-  default = "nextjs-app"
+  default = "giantmuseumweb"
 }
 
 variable "image_tag" {

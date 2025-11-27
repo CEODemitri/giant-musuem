@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "giantmuseum.fullname" . }}
+  name: {{ include "giantmuseumweb.fullname" . }}
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: {{ include "giantmuseum.name" . }}
+      app: {{ include "giantmuseumweb.name" . }}
   template:
     metadata:
       labels:
-        app: {{ include "giantmuseum.name" . }}
+        app: {{ include "giantmuseumweb.name" . }}
     spec:
       containers:
-        - name: giantmuseum
+        - name: giantmuseumweb
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
