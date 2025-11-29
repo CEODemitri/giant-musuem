@@ -1,6 +1,8 @@
 FROM node:18-alpine AS builder
 LABEL authors="ceoDemitri"
 
+ENV NODE_OPTIONS="--max-old-space-size=4096"
+
 RUN apk add --no-cache bash curl python3 make g++ libc6-compat
 
 WORKDIR ./

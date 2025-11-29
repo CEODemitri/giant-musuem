@@ -7,7 +7,7 @@ module "helm_nextjs" {
   source    = "./modules/helm"
   release   = "nextjs"
   namespace = module.kubernetes.namespace
-  chart_path = "../../../chart"
+  chart_path = "../../chart"
 }
 
 

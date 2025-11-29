@@ -6,6 +6,15 @@ spec:
   type: {{ .Values.service.type }}
   ports:
     - port: {{ .Values.service.port }}
-    targetPort: 3000
+      targetPort: 3000
   selector:
-    app {{ include "giantmuseumweb.name" . }}
+    app: {{ include "giantmuseumweb.name" . }}
+
+
+
+{{/*    kubectl get pods -n giantmuseumweb*/}}
+{{/*    kubectl get svc -n giantmuseumweb*/}}
+{{/*    helm list -n giantmuseumweb*/}}
+
+{{/* start server */}}
+{{/*  minikube service nextjs-giantmuseumweb -n giantmuseumweb*/}}
