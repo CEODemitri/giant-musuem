@@ -1,28 +1,34 @@
-FROM node:18-alpine AS builder
-LABEL authors="ceoDemitri"
+# -------------------------
+# 1. Builder
+# -------------------------
+FROM node:18 AS builder
+WORKDIR /app
 
 ENV NODE_OPTIONS="--max-old-space-size=4096"
 
-RUN apk add --no-cache bash curl python3 make g++ libc6-compat
-
-WORKDIR ./
-
+# Copy only package files first
 COPY package*.json ./
-RUN npm install
 
+RUN npm ci
+
+# Copy entire project (app/, public/, next.config.mjs, etc)
 COPY . .
+
 RUN npm run build
 
-FROM node:18-alpine AS runner
-
-WORKDIR ./
+# -------------------------
+# 2. Runner
+# -------------------------
+FROM node:18 AS runner
+WORKDIR /app
 
 ENV NODE_ENV=production
 
-COPY --from=builder ./.next ./.next
-COPY --from=builder ./package*.json ./
+COPY --from=builder /app/.next ./.next
+COPY --from=builder /app/package*.json ./
+COPY --from=builder /app/public ./public
 
-RUN npm install --omit=dev
+RUN npm ci --omit=dev
 
 EXPOSE 3000
 CMD ["npm", "start"]

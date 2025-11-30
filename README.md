@@ -1,13 +1,14 @@
 NextJS project #1 11/2025
 
 ## 11 4 2025 ⭐️
-I started this project in bliss; now i use my skills and create something beautiful. At surface, I am going with the flow for this project. Interesting experiment.
+
+I started this project in bliss; now i use my skills and create something beautiful. At surface, I am going with the flow for this project. Interesting experiment. Lster in the project, I decided to practice Terraform, Docker and Minikube. Three days straight I attempted to complete the exercise and build with Docker. No luck so I decided to build locally and just copy the image. Stopping ehre means that was
 
 ---
 
 # 📚 Giant Museum Portfolio Website
 
-*A Huge museum overflowing with artifacts from the ancient future and the distant past. Carefully curated digital experience showcasing exhibitions, collections, and a fresh perspective.*
+_A Huge museum overflowing with artifacts from the ancient future and the distant past. Carefully curated digital experience showcasing exhibitions, collections, and a fresh perspective._
 
 ## 🖼️ Overview
 
@@ -20,37 +21,37 @@ This project demonstrates expertise in Web Developement, UI/UX, Content Architec
 
 ## 🎯 Objectives
 
-* Present museum information in a vibrant, organized, and visually appealing way
-* Ensure accessibility following WCAG principles
-* Create a flexible content structure suitable for art, history, culture, and science museums
-* Provide an immersive storytelling experience through imagery, typography, and layout
-* Allow for easy addition of exhibitions, artworks, and events
+- Present museum information in a vibrant, organized, and visually appealing way
+- Ensure accessibility following WCAG principles
+- Create a flexible content structure suitable for art, history, culture, and science museums
+- Provide an immersive storytelling experience through imagery, typography, and layout
+- Allow for easy addition of exhibitions, artworks, and events
 
 ---
 
 ## 🧩 Features
 
-* **Homepage hero gallery** showcasing featured exhibitions
-* **Exhibitions Section** with individual detail pages
-* **Artwork / Artifact Collection** with filters and media modals
-* **About Page** describing museum mission and history
-* **Visitor Information** (hours, tickets, directions)
-* **Events & Educational Programs**
-* **Responsive design** for mobile, tablet, and desktop
-* **Accessibility improvements** such as alt text, contrast, and keyboard navigation
-* **[Good to have] CMS integration** 
+- **Homepage hero gallery** showcasing featured exhibitions
+- **Exhibitions Section** with individual detail pages
+- **Artwork / Artifact Collection** with filters and media modals
+- **About Page** describing museum mission and history
+- **Visitor Information** (hours, tickets, directions)
+- **Events & Educational Programs**
+- **Responsive design** for mobile, tablet, and desktop
+- **Accessibility improvements** such as alt text, contrast, and keyboard navigation
+- **[Good to have] CMS integration**
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Framework:** Next.js / HTML-CSS-JS
-* **Styling:** Tailwind CSS 
-* **Animations:** GSAP
-* **CMS:** Sanity
-* **Deployment:** Vercel 
-* **Version Control:** Git + GitHub
-* Project Assistant for menial tasks: ChatGPT, v0.dev
+- **Framework:** Next.js / HTML-CSS-JS
+- **Styling:** Tailwind CSS
+- **Animations:** GSAP
+- **CMS:** Sanity
+- **Deployment:** Vercel
+- **Version Control:** Git + GitHub
+- Project Assistant for menial tasks: ChatGPT, v0.dev
 
 ---
 
@@ -100,43 +101,44 @@ bun run build
 
 ## 💡 Design Principles
 
-* **Modern layout** to emphasize artwork and exhibitions
-* **High-quality media** to enhance the gallery experience
-* **Elegant, museum-inspired typography**
-* **Consistent grid and spacing system** for visual balance
+- **Modern layout** to emphasize artwork and exhibitions
+- **High-quality media** to enhance the gallery experience
+- **Elegant, museum-inspired typography**
+- **Consistent grid and spacing system** for visual balance
 
 ---
 
 ## 📸 Take a Peek
 
-*(Greyscale Hero)*
+_(Greyscale Hero)_
 ![hero_sc.png](public/hero_sc.png)
-*(Version 2)*
+_(Version 2)_
 ![hero_v2_sc.png](public/hero_v2_sc.png)
+
 ---
 
 ## 📐 Future Features
 
-* Multi-language support
-* Interactive floor plan
-* Virtual tour integration
-* API-connected collection database
+- Multi-language support
+- Interactive floor plan
+- Virtual tour integration
+- API-connected collection database
 
 ---
 
 ## 👤 Creator
 
 **Demitri Echols** <br>
-Portfolio: *demitri26.vercel.app* <br>
-Email: *[iprogramidesign@gmail.com](mailto:iprogramidesign@gmail.com)*
+Portfolio: _demitri26.vercel.app_ <br>
+Email: _[iprogramidesign@gmail.com](mailto:iprogramidesign@gmail.com)_
 
 ---
 
-[//]: # (erase section when project done)
-### next sprint
-- ci/cd pipeline
-- build the landing pae ui in figma, more museumy
-- complete a next tutorial and have a list of ideas to enhance this project using next
+[//]: # "erase section when project done"
 
-- Forcing myself to learn. Here I have inherited this codebase. make it functional and a flip. 
-- Get Serious
+### next sprint
+
+- ci/cd pipeline with terraform and github workflow
+- build the landing page ui in figma, more museumy
+- complete a next tutorial and have a list of ideas to enhance this project using next
+- Forcing myself to learn. Here I have inherited this codebase. make it functional and a flip.
