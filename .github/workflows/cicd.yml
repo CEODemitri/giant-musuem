@@ -1,22 +1,38 @@
-name: CI/CD for Giant Museum Web
+name: CI - Docker Build
 
 on:
   push:
     branches:
-      - main # or your default branch
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
-  deploy:
-    runs-on: ubuntu-latest # or self-hosted if you want to access your local Minikube
+  docker-build:
+    name: Build Docker Image
+    runs-on: ubuntu-latest
 
     steps:
+      # Step 1: Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Make update script executable
-        run: chmod +x ./update.sh
-        working-directory: ./infra
+      # Step 2: Set up Docker Buildx (optional, good for multi-platform builds)
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
 
-      - name: Run update script
-        run: ./update.sh
-        working-directory: ./infra
+      # Step 3: Build Docker image (without pushing)
+      - name: Build Docker image
+        run: |
+          docker build \
+            --file ./Dockerfile \
+            --tag giantmuseumweb:test \
+            .
+      # Step 4: Verify the image was built
+      - name: Verify Docker image
+        run: |
+          docker images giantmuseumweb:test
+          docker run --rm giantmuseumweb:test node -v
+          docker run --rm giantmuseumweb:test npm -v
+          docker run --rm giantmuseumweb:test npx next --version
