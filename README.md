@@ -138,8 +138,5 @@ Email: _[iprogramidesign@gmail.com](mailto:iprogramidesign@gmail.com)_
 
 ### next sprint
 
-- ci/cd pipeline with terraform and github workflow
 - build the landing page ui in figma, more museumy
 - complete a next tutorial and have a list of ideas to enhance this project using next
-- Forcing myself to learn. Here I have inherited this codebase. make it functional and a flip.
-- chart/template/service
