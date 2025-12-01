@@ -1,0 +1,22 @@
+name: CI/CD for Giant Museum Web
+
+on:
+  push:
+    branches:
+      - main # or your default branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest # or self-hosted if you want to access your local Minikube
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Make update script executable
+        run: chmod +x ./update.sh
+        working-directory: ./infra
+
+      - name: Run update script
+        run: ./update.sh
+        working-directory: ./infra
