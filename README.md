@@ -140,3 +140,4 @@ Email: _[iprogramidesign@gmail.com](mailto:iprogramidesign@gmail.com)_
 
 - build the landing page ui in figma, more museumy
 - complete a next tutorial and have a list of ideas to enhance this project using next
+- get to a place where this app is a completed web page
