@@ -5,9 +5,11 @@
 :root {
   --background: #F0EDEE;
   --foreground: #0A090C;
-  --primary: #07393C;
-  --accent: #2C666E;
-  --accent-light: #90DDF0;
+  --primary: #4A2F36;       /* deep oxblood — rich, historical */
+  --accent: #A67C00;        /* antique gold — wisdom, museum fixtures */
+  --accent-light: #E9D7A6;  /* soft gold — highlight */
+  --font-bricolage: var(--font-header), sans-serif;
+  --font-lato: var(--font-body), sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,7 +22,6 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: var(--font-body), Helvetica, sans-serif;
 }
 
 @layer utilities {
@@ -30,5 +31,5 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: var(--font-header), serif;
+    font-family: var(--font-bricolage), serif;
 }
