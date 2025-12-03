@@ -63,7 +63,7 @@ function NavBar() {
         </div>
       </nav>
 
-      <div className="text-sm relative top-[6vh] left-[83vw] z-10 border border-b-neutral-300 w-fit p-2 rounded-md">
+      <div className="text-sm relative top-[8vh] left-[83vw] z-10 border border-b-neutral-300 w-fit p-2 rounded-md">
         {/* day info: temp, time, etc */}
         <p>London, Jotunheim</p>
         <p className="text-[var(--foreground)]">
