@@ -33,3 +33,77 @@ body {
 h1, h2, h3 {
     font-family: var(--font-bricolage), serif;
 }
+
+/* Film Grain Layer */
+.museum-grain {
+  position: absolute;
+  inset: 0;
+  background-image: url("/textures/noise.png");
+  opacity: 0.18;
+  mix-blend-mode: soft-light;
+  animation: grainShift 6s steps(2, end) infinite;
+}
+
+@keyframes grainShift {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(-2%, 1%);
+  }
+
+  50% {
+    transform: translate(1%, -1%);
+  }
+
+  75% {
+    transform: translate(-1%, -2%);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+/* Floating Dust Particles */
+.museum-particles {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.museum-particle {
+  position: absolute;
+  background: radial-gradient(circle,
+      rgba(255, 255, 255, 0.55),
+      rgba(255, 255, 255, 0));
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  opacity: 0;
+  animation: floatParticle 12s linear infinite;
+  animation-delay: calc(-12s * var(--d));
+}
+
+/* Gentle floating motion */
+@keyframes floatParticle {
+  0% {
+    opacity: 0;
+    transform: translateY(10vh) translateX(0);
+  }
+
+  10% {
+    opacity: 0.4;
+  }
+
+  50% {
+    opacity: 0.25;
+    transform: translateY(-40vh) translateX(8vw);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-80vh) translateX(-4vw);
+  }
+}
