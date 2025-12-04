@@ -136,8 +136,15 @@ Email: _[iprogramidesign@gmail.com](mailto:iprogramidesign@gmail.com)_
 
 [//]: # "erase section when project done"
 
-### next sprint
+### next sprint due 12 / 7
 
-- build the landing page ui in figma, more museumy
-- complete a next tutorial and have a list of ideas to enhance this project using next
-- get to a place where this app is a completed web page
+- figma hero
+- refactor hero section per new design
+
+- figma 3 value sections
+- refactor per design
+
+- figma footer
+- refactor per design
+
+**goal** complete landing page, skeleton professional web "portfolio" for a public business
