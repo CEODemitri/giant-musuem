@@ -8,7 +8,7 @@
   --primary: #4A2F36;       /* deep oxblood — rich, historical */
   --accent: #A67C00;        /* antique gold — wisdom, museum fixtures */
   --accent-light: #E9D7A6;  /* soft gold — highlight */
-  --secondary: #3e7649;     /* muted slate blue — calm, trustworthy */
+  --secondary: #3e7649;     /* muted seagreen — calm, trustworthy */
 
   --font-bricolage: var(--font-header), sans-serif;
   --font-lato: var(--font-body), sans-serif;
