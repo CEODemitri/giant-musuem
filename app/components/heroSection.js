@@ -15,7 +15,7 @@ export default function HeroSection() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             {/* Left content */}
             <div className="space-y-8">
-              <div className="inline-block px-3 py-1 bg-accentlight text-background backdrop-blur-sm rounded-full">
+              <div className="inline-block px-3 py-1 bg-[var(--secondary)] text-background backdrop-blur-sm rounded-full">
                 <span className="text-xs font-medium tracking-wider uppercase">
                   Featured Showcase
                 </span>
@@ -36,7 +36,7 @@ export default function HeroSection() {
 
               {/* CTA Buttons */}
               <div className="flex flex-wrap gap-4 pt-4">
-                <button className="hover:bg-accent border border-accent flex items-center bg-primary text-background backdrop-blur-sm px-3 py-2 rounded-md group">
+                <button className="hover:bg-accent border border-[var(--accent-light)] flex items-center bg-primary text-background backdrop-blur-sm px-3 py-2 rounded-md group">
                   Explore Exhibition
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </button>
