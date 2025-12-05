@@ -114,6 +114,8 @@ _(Greyscale Hero)_
 ![hero_sc.png](public/hero_sc.png)
 _(Version 2)_
 ![hero_v2_sc.png](public/hero_v2_sc.png)
+_(Version 3)_
+![hero_v3_sc.png](public/hero_v3_sc.png)
 
 ---
 
@@ -138,7 +140,8 @@ Email: _[iprogramidesign@gmail.com](mailto:iprogramidesign@gmail.com)_
 
 ### next sprint due 12 / 7
 
-- figma hero
+- [ x ] figma hero [entire landing lofi complete]
+- figma hero hifi and prototype
 - refactor hero section per new design
 
 - figma 3 value sections
