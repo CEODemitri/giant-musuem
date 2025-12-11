@@ -15,8 +15,8 @@ export default function HeroSection() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             {/* Left content */}
             <div className="space-y-8">
-              <div className="inline-block px-3 py-1 bg-[var(--secondary)] text-background backdrop-blur-sm rounded-full">
-                <span className="text-xs font-medium tracking-wider uppercase">
+              <div className="inline-block px-4 bg-[var(--secondary)] text-background backdrop-blur-sm rounded-full">
+                <span className="text-[0.6em] font-medium tracking-wider uppercase">
                   Featured Showcase
                 </span>
               </div>
@@ -27,7 +27,7 @@ export default function HeroSection() {
                 <span>1800s</span>
               </h1>
 
-              <p className="text-lg md:text-xl text-neutral-500/70 max-w-xl text-pretty leading-relaxed">
+              <p className="text-lg md:text-xl max-w-xl text-pretty leading-relaxed">
                 Illuminating ancient masterpieces that awaken our true
                 introspective senses. A groundbreaking showcase featuring{" "}
                 <span className="font-bold">5000+</span> works from the hidden
@@ -35,8 +35,8 @@ export default function HeroSection() {
               </p>
 
               {/* CTA Buttons */}
-              <div className="flex flex-wrap gap-4 pt-4">
-                <button className="hover:bg-accent border border-[var(--accent-light)] flex items-center bg-primary text-background backdrop-blur-sm px-3 py-2 rounded-md group">
+              <div className="flex flex-wrap gap-28 md:gap-20 pt-4">
+                <button className="hover:bg-accent border border-[var(--accent-light)] flex items-center bg-accent text-background backdrop-blur-sm px-3 py-2 rounded-md group">
                   Explore Exhibition
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </button>
@@ -48,27 +48,21 @@ export default function HeroSection() {
               {/* Stats */}
               <div className="flex items-center gap-8 pt-6">
                 <div>
-                  <div className="text-3xl font-bold text-neutral-700">
-                    500+
-                  </div>
+                  <div className="text-3xl font-bold">500+</div>
                   <div className="text-sm text-neutral-500">Masterworks</div>
                 </div>
 
                 <div className="h-12 w-px bg-neutral-300/50" />
 
                 <div>
-                  <div className="text-3xl font-bold text-neutral-700">
-                    &gt;18th
-                  </div>
+                  <div className="text-3xl font-bold">&gt;18th</div>
                   <div className="text-sm text-neutral-500">Century</div>
                 </div>
 
                 <div className="h-12 w-px bg-neutral-300/50" />
 
                 <div>
-                  <div className="text-3xl font-bold text-neutral-700">
-                    Dec 31
-                  </div>
+                  <div className="text-3xl font-bold">Dec 31</div>
                   <div className="text-sm text-neutral-500">Limited Time</div>
                 </div>
               </div>
@@ -123,20 +117,20 @@ export default function HeroSection() {
           </div> */}
 
           {/* NEW — Visitor Info Section */}
-          <div className="mt-24 bg-neutral-100/60 backdrop-blur-sm border border-neutral-300/50 rounded-xl p-10 grid md:grid-cols-3 gap-8">
+          <div className="mt-24 backdrop-blur-sm border border-neutral-600/50 rounded-xl p-10 grid md:grid-cols-3 gap-8">
             <div>
               <h4 className="font-semibold mb-1">Museum Hours</h4>
               <p className="text-neutral-600 text-sm">Tue–Sun, 10am–6pm</p>
             </div>
-            <div>
+            <div className="ml-12">
               <h4 className="font-semibold mb-1">Location</h4>
               <p className="text-neutral-600 text-sm">
                 Placeholder street address City, Country
               </p>
             </div>
             <div>
-              <h4 className="font-semibold mb-1">Admission</h4>
-              <p className="text-neutral-600 text-sm">
+              <h4 className="font-semibold mb-1 text-right">Admission</h4>
+              <p className="text-neutral-600 text-sm text-right">
                 General • Students • Free Days
               </p>
             </div>
