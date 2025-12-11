@@ -20,7 +20,7 @@ let currentTime = `${currentHours}:${currentMinutes}`;
 function NavBar() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50">
-      <nav className="absolute top-0 left-0 w-full flex items-center justify-between px-10 py-2 bg-[var(--foreground)] text-[var(--background)] backdrop-blur-md shadow-sm z-10">
+      <nav className="absolute top-0 left-0 w-full flex items-center justify-between px-10 py-2 backdrop-blur-md shadow-sm z-10">
         {/* Logo + Nav Links */}
         <div className="flex flex-col">
           <p className="text-3xl font-header tracking-wide font-semibold">
@@ -63,7 +63,7 @@ function NavBar() {
         </div>
       </nav>
 
-      <div className="text-sm relative top-[7vh] left-[83vw] z-10 border border-b-neutral-300 w-fit p-2 rounded-md">
+      <div className="text-sm relative top-[7vh] left-[3vw] z-10 border border-b-neutral-300 w-fit p-2 rounded-md">
         {/* day info: temp, time, etc */}
         <p>London, Jotunheim</p>
         <p className="text-[var(--foreground)]">
@@ -84,7 +84,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${lato.className} bg-[var(--background)] text-[var(--foreground)] min-h-screen px-2 md:px-6 lg:px-12 pb-12`}
+        className={`${lato.className} min-h-screen px-2 md:px-6 lg:px-12 pb-12`}
       >
         <NavBar />
         <div className="text-sm md:text-base leading-snug">{children}</div>

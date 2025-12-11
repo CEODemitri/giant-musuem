@@ -6,9 +6,9 @@
   --background: #F0EDEE;
   --foreground: #0A090C;
   --primary: #4A2F36;       /* deep oxblood — rich, historical */
-  --accent: #A67C00;        /* antique gold — wisdom, museum fixtures */
-  --accent-light: #E9D7A6;  /* soft gold — highlight */
-  --secondary: #3e7649;     /* muted seagreen — calm, trustworthy */
+  --accent: #363636;        /* antique gold — wisdom, museum fixtures */
+  --accent-light: #929292;  /* soft gold — highlight */
+  --secondary: #626262;     /* muted seagreen — calm, trustworthy */
 
   --font-bricolage: var(--font-header), sans-serif;
   --font-lato: var(--font-body), sans-serif;
@@ -17,7 +17,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0A090C;
-    --foreground: #F0EDEE;
+    --foreground: #eeeeee;
   }
 }
 
