@@ -141,13 +141,6 @@ Email: _[iprogramidesign@gmail.com](mailto:iprogramidesign@gmail.com)_
 ### next sprint due 12 / 7
 
 - [ x ] figma hero [entire landing lofi complete]
-- figma hero hifi and prototype
-- refactor hero section per new design
-
-- figma 3 value sections
-- refactor per design
-
-- figma footer
-- refactor per design
+- [ ] i like it in this state. iterate from here. check when landing page base complete.
 
 **goal** complete landing page, skeleton professional web "portfolio" for a public business
